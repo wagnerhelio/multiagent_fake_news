@@ -1,0 +1,89 @@
+{
+  "content_id": "7705741b-2907-4d7f-bf1f-8652e93cad7b",
+  "format": "text",
+  "source": "test",
+  "category": "Política",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759615338.966248,
+  "updated_at": 1759615338.966248,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista-error",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: 'ContentItem' object has no attribute 'raw_content'",
+        "source": "openai",
+        "error": "'ContentItem' object has no attribute 'raw_content'"
+      },
+      {
+        "id": "openai-fact-checker-error",
+        "role": "Fact-Checker",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: 'ContentItem' object has no attribute 'raw_content'",
+        "source": "openai",
+        "error": "'ContentItem' object has no attribute 'raw_content'"
+      },
+      {
+        "id": "openai-pesquisador-error",
+        "role": "Pesquisador",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: 'ContentItem' object has no attribute 'raw_content'",
+        "source": "openai",
+        "error": "'ContentItem' object has no attribute 'raw_content'"
+      },
+      {
+        "id": "openai-analista-error",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: 'ContentItem' object has no attribute 'raw_content'",
+        "source": "openai",
+        "error": "'ContentItem' object has no attribute 'raw_content'"
+      },
+      {
+        "id": "openai-verificador-error",
+        "role": "Verificador",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: 'ContentItem' object has no attribute 'raw_content'",
+        "source": "openai",
+        "error": "'ContentItem' object has no attribute 'raw_content'"
+      }
+    ],
+    "evidence": [],
+    "veracity_score": 0.5,
+    "final_label": "Erro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 0,
+        "successful_checks": 0,
+        "results": []
+      },
+      "tavily": {
+        "error": "'ContentItem' object has no attribute 'raw_content'"
+      },
+      "method": "real_apis",
+      "total_checkers": 5
+    }
+  }
+}

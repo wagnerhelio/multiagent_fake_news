@@ -1,0 +1,205 @@
+{
+  "content_id": "8fdb2236-4d30-47cb-9453-e59559bf05f0",
+  "format": "video",
+  "source": "ui",
+  "category": "Geral",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759616381.0598354,
+  "updated_at": 1759616390.3843663,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação fornecida parece ser VERDADEIRA, pois há evidências de que o diretório \"C:\\Users\\wagne\\AppData\\Local\\Temp\" é um local onde arquivos tempo...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação fornecida não está completa o suficiente para determinar a veracidade do conteúdo do arquivo de vídeo mencionado. No entanto, com base na...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Descontextualizado",
+        "confidence": 0.8,
+        "reasoning": "DESCONTEXTUALIZADO.\n\nAs evidências encontradas se referem a problemas relacionados à pasta Temp do sistema operacional Windows, não parecendo ter rela...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. O conteúdo fornecido parece ser um arquivo de vídeo armazenado em um diretório temporário do computador do usuário. As evidências encontradas n...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. As evidências encontradas confirmam a existência de problemas relacionados à pasta Temp localizada em \"C:\\Users\\%username%\\AppData\\Local\\\"...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://community.citrix.com/forums/topic/239620-cusersusernameappdatalocaltemp-folder-disappears-after-first-login/",
+        "title": "c:\\users\\%username%\\appdata\\local\\Temp folder ...",
+        "content": "Jan 23, 2020—UPDATE: We have discovered the reason for all our issues stems from theusers appdata\\local\\temp folder being removedafter initial login.",
+        "score": 0.493336,
+        "raw_content": null
+      },
+      {
+        "url": "https://community.spiceworks.com/t/huge-temp-file-under-c-users-username-appdata-local-temp-where-does-it-coming/149439",
+        "title": "Huge temp file under C:\\Users\\username\\AppData\\Local ...",
+        "content": "Jun 17, 2012—A hugetempfile is randomly creating under “C:\\Users\\username\\AppData\\Local\\Temp” location and size of the file is limited only by the free space available.",
+        "score": 0.30346388,
+        "raw_content": null
+      },
+      {
+        "url": "https://forums.autodesk.com/t5/autocad-map-3d-forum/not-enough-free-space-on-drive-c-users-username-appdata-local/td-p/7045023",
+        "title": "Not enough free space on drive C:\\Users\\username\\ ...",
+        "content": "Apr 26, 2017—The error we're getting is \"Not enough free space on drive C:\\Users\\bsmith\\appdata\\local\\temp. Until last week, clearing the Google Earth cache",
+        "score": 0.28488475,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.reddit.com/r/sysadmin/comments/pbzuic/userprofileappdatalocaltemp_folder_keeps_getting/",
+        "title": "%USERPROFILE%\\AppData\\Local\\Temp folder keeps ...",
+        "content": "My issue is that %USERPROFILE%\\AppData\\Local\\Temp keeps popping up in what directory I'm working in. I've already checked theUserenvironment variables.",
+        "score": 0.22968243,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.elevenforum.com/t/disk-cleanup-c-users-username-appdata-local-temp.14115/",
+        "title": "Disk Cleanup - C:\\Users\\username\\AppData\\Local\\Temp",
+        "content": "The best way to delete everything in the Temp folder is to boot into safe mode, then open file explorer window and go to %temp%. I've written a Cleanup batch file, that does clean out many of the Temp folders in Windows. I just ran my Batch file yesterday, before I did a C: drive backup, and when I ran it again a few minutes ago, it found and removed over 46k of junk files....created in just one day. **Del /F /S /Q C:\\\\*.tmp** will find and delete every file in your PC, with a name that ends in .tmp   Here is a script that will delete files and folders within Temp folder. WCTxxxx.tmp files in C:\\Users\\username\\AppData\\Local\\Temp",
+        "score": 0.20851755,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.583,
+    "final_label": "Verdadeiro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação fornecida parece ser VERDADEIRA, pois há evidências de que o diretório \"C:\\Users\\wagne\\AppData\\Local\\Temp\" é um local onde arquivos tempo...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação fornecida não está completa o suficiente para determinar a veracidade do conteúdo do arquivo de vídeo mencionado. No entanto, com base na...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Descontextualizado",
+            "confidence": 0.8,
+            "reasoning": "DESCONTEXTUALIZADO.\n\nAs evidências encontradas se referem a problemas relacionados à pasta Temp do sistema operacional Windows, não parecendo ter rela...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. O conteúdo fornecido parece ser um arquivo de vídeo armazenado em um diretório temporário do computador do usuário. As evidências encontradas n...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. As evidências encontradas confirmam a existência de problemas relacionados à pasta Temp localizada em \"C:\\Users\\%username%\\AppData\\Local\\\"...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://community.citrix.com/forums/topic/239620-cusersusernameappdatalocaltemp-folder-disappears-after-first-login/",
+          "title": "c:\\users\\%username%\\appdata\\local\\Temp folder ...",
+          "content": "Jan 23, 2020—UPDATE: We have discovered the reason for all our issues stems from theusers appdata\\local\\temp folder being removedafter initial login.",
+          "score": 0.493336,
+          "raw_content": null
+        },
+        {
+          "url": "https://community.spiceworks.com/t/huge-temp-file-under-c-users-username-appdata-local-temp-where-does-it-coming/149439",
+          "title": "Huge temp file under C:\\Users\\username\\AppData\\Local ...",
+          "content": "Jun 17, 2012—A hugetempfile is randomly creating under “C:\\Users\\username\\AppData\\Local\\Temp” location and size of the file is limited only by the free space available.",
+          "score": 0.30346388,
+          "raw_content": null
+        },
+        {
+          "url": "https://forums.autodesk.com/t5/autocad-map-3d-forum/not-enough-free-space-on-drive-c-users-username-appdata-local/td-p/7045023",
+          "title": "Not enough free space on drive C:\\Users\\username\\ ...",
+          "content": "Apr 26, 2017—The error we're getting is \"Not enough free space on drive C:\\Users\\bsmith\\appdata\\local\\temp. Until last week, clearing the Google Earth cache",
+          "score": 0.28488475,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.reddit.com/r/sysadmin/comments/pbzuic/userprofileappdatalocaltemp_folder_keeps_getting/",
+          "title": "%USERPROFILE%\\AppData\\Local\\Temp folder keeps ...",
+          "content": "My issue is that %USERPROFILE%\\AppData\\Local\\Temp keeps popping up in what directory I'm working in. I've already checked theUserenvironment variables.",
+          "score": 0.22968243,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.elevenforum.com/t/disk-cleanup-c-users-username-appdata-local-temp.14115/",
+          "title": "Disk Cleanup - C:\\Users\\username\\AppData\\Local\\Temp",
+          "content": "The best way to delete everything in the Temp folder is to boot into safe mode, then open file explorer window and go to %temp%. I've written a Cleanup batch file, that does clean out many of the Temp folders in Windows. I just ran my Batch file yesterday, before I did a C: drive backup, and when I ran it again a few minutes ago, it found and removed over 46k of junk files....created in just one day. **Del /F /S /Q C:\\\\*.tmp** will find and delete every file in your PC, with a name that ends in .tmp   Here is a script that will delete files and folders within Temp folder. WCTxxxx.tmp files in C:\\Users\\username\\AppData\\Local\\Temp",
+          "score": 0.20851755,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5
+    }
+  }
+}

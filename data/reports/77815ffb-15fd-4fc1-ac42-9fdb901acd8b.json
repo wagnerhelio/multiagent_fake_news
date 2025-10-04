@@ -1,0 +1,205 @@
+{
+  "content_id": "77815ffb-15fd-4fc1-ac42-9fdb901acd8b",
+  "format": "text",
+  "source": "test",
+  "category": "Saúde",
+  "gut": {
+    "G": 3,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 33,
+  "created_at": 1759615432.9750698,
+  "updated_at": 1759615446.923829,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. As evidências encontradas não têm relação com a afirmação de que a vacina contra a COVID-19 causa magnetismo nas pessoas. As fontes mencionadas...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. Não há evidências científicas confiáveis que comprovem que a vacina contra a COVID-19 cause magnetismo nas pessoas. A informação apresentada nã...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. A alegação de que a vacina contra a COVID-19 causa magnetismo nas pessoas não possui respaldo científico ou evidências confiáveis. As fontes ci...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. A alegação de que a vacina contra COVID-19 causa magnetismo nas pessoas é falsa e não possui embasamento científico. Essa afirmação é considera...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. As evidências fornecidas não corroboram a alegação de que a vacina contra COVID-19 causa magnetismo nas pessoas. Os links fornecidos tratam de ...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://medlineplus.gov/spanish/ency/patientinstructions/000983.htm",
+        "title": "Vacunas contra la COVID-19 - qué esperar",
+        "content": "*   Revise el sitio webVacunas.gov de los Centros para el Control y la Prevención de Enfermedades (CDC) para saber dónde recibir una vacuna en su área. Si toma medicamentos que afecten al sistema inmune, hable con su proveedor para averiguar si recibir la vacuna contra la COVID-19 funcionará o causará algunos problemas para usted. Debería recibir una tarjeta de vacunación (o acceso a un sitio web de registro de vacunas) que le indique qué vacuna recibió y la fecha y lugar en que la recibió. Si piensa que está teniendo una reacción grave a una vacuna contra la COVID-19 después de irse del lugar de la vacunación, debe llamar al 911 o al número local de emergencias de inmediato.",
+        "score": 0.42691937,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.fda.gov/emergency-preparedness-and-response/coronavirus-disease-2019-covid-19/las-vacunas-contra-el-covid-19-para-el-2024-2025",
+        "title": "Las vacunas contra el COVID-19 para el 2024-2025",
+        "content": "**The site is secure.** The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely. 5. Las vacunas contra el COVID-19 para el 2024-2025 # Las vacunas contra el COVID-19 para el 2024-2025 ***22 de agusto de 2024***: La FDA aprueba y autoriza vacunas de ARNm actualizadas contra la COVID-19 para proteger mejor contra las variantes que circulan actualmente. ## ¿Qué vacunas actualizadas contra el COVID-19 están disponibles? Estas vacunas se actualizaron para brindar una mejor protección contra el COVID-19 causado por variantes circulantes. ## ¿Cuáles son los ingredientes de las vacunas actualizadas contra el COVID?",
+        "score": 0.38546777,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.mayoclinic.org/es/diseases-conditions/coronavirus/in-depth/coronavirus-vaccine/art-20484859",
+        "title": "Vacuna contra la COVID-19: obtén la información verdadera",
+        "content": "Las vacunas con subunidades proteicas contra la COVID-19 no utilizan virus vivosy no pueden hacer que te infectes con el virus que causa esta enfermedad. Las",
+        "score": 0.38117403,
+        "raw_content": null
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10761190/",
+        "title": "Incidencia de efectos adversos de la vacuna contra COVID ...",
+        "content": "La vacuna BioNTech/Pfizer, de reciente creación, se aplicó inicialmente en personal del sector salud expuesto a áreas destinadas para la atención de pacientes contagiados de COVID-19, que a pesar de la evidencia del inicio de la sintomatología, su estudio en nuestro país aún es limitado, por lo que el objetivo de la presente investigación fue evaluar la presencia y el tiempo de inicio de efectos adversos producidos por la vacuna contra COVID-19. En términos de la evaluación, la variable dependiente correspondió a los médicos residentes que decidieron participar en el estudio y a los que se les aplicó la vacuna BioNTech/Pfizer contra COVID, quienes contestaron un instrumento de evaluación en formato de cuestionario de opción múltiple con 19 reactivos, los cuales incluyeron datos como edad, sexo, tipo de especialidad médica, año de residencia, fechas de aplicación de vacuna BioNTech/Pfizer, selección de sintomatología presentada inicio, duración y si requirieron de algún tratamiento.",
+        "score": 0.22078775,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.heart.org/en/news/2023/10/06/lo-que-las-personas-con-enfermedad-cardiaca-deben-saber-sobre-las-vacunas",
+        "title": "Lo que las personas con enfermedad cardíaca deben ...",
+        "content": "Oct 6, 2023—Las vacunas pueden tener efectos secundarios. Por ejemplo, lavacuna contraelCOVID-19 ha estado vinculada a casos raros de miocarditis y",
+        "score": 0.19613276,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.0,
+    "final_label": "Falso",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. As evidências encontradas não têm relação com a afirmação de que a vacina contra a COVID-19 causa magnetismo nas pessoas. As fontes mencionadas...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. Não há evidências científicas confiáveis que comprovem que a vacina contra a COVID-19 cause magnetismo nas pessoas. A informação apresentada nã...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. A alegação de que a vacina contra a COVID-19 causa magnetismo nas pessoas não possui respaldo científico ou evidências confiáveis. As fontes ci...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. A alegação de que a vacina contra COVID-19 causa magnetismo nas pessoas é falsa e não possui embasamento científico. Essa afirmação é considera...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. As evidências fornecidas não corroboram a alegação de que a vacina contra COVID-19 causa magnetismo nas pessoas. Os links fornecidos tratam de ...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://medlineplus.gov/spanish/ency/patientinstructions/000983.htm",
+          "title": "Vacunas contra la COVID-19 - qué esperar",
+          "content": "*   Revise el sitio webVacunas.gov de los Centros para el Control y la Prevención de Enfermedades (CDC) para saber dónde recibir una vacuna en su área. Si toma medicamentos que afecten al sistema inmune, hable con su proveedor para averiguar si recibir la vacuna contra la COVID-19 funcionará o causará algunos problemas para usted. Debería recibir una tarjeta de vacunación (o acceso a un sitio web de registro de vacunas) que le indique qué vacuna recibió y la fecha y lugar en que la recibió. Si piensa que está teniendo una reacción grave a una vacuna contra la COVID-19 después de irse del lugar de la vacunación, debe llamar al 911 o al número local de emergencias de inmediato.",
+          "score": 0.42691937,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.fda.gov/emergency-preparedness-and-response/coronavirus-disease-2019-covid-19/las-vacunas-contra-el-covid-19-para-el-2024-2025",
+          "title": "Las vacunas contra el COVID-19 para el 2024-2025",
+          "content": "**The site is secure.** The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely. 5. Las vacunas contra el COVID-19 para el 2024-2025 # Las vacunas contra el COVID-19 para el 2024-2025 ***22 de agusto de 2024***: La FDA aprueba y autoriza vacunas de ARNm actualizadas contra la COVID-19 para proteger mejor contra las variantes que circulan actualmente. ## ¿Qué vacunas actualizadas contra el COVID-19 están disponibles? Estas vacunas se actualizaron para brindar una mejor protección contra el COVID-19 causado por variantes circulantes. ## ¿Cuáles son los ingredientes de las vacunas actualizadas contra el COVID?",
+          "score": 0.38546777,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.mayoclinic.org/es/diseases-conditions/coronavirus/in-depth/coronavirus-vaccine/art-20484859",
+          "title": "Vacuna contra la COVID-19: obtén la información verdadera",
+          "content": "Las vacunas con subunidades proteicas contra la COVID-19 no utilizan virus vivosy no pueden hacer que te infectes con el virus que causa esta enfermedad. Las",
+          "score": 0.38117403,
+          "raw_content": null
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10761190/",
+          "title": "Incidencia de efectos adversos de la vacuna contra COVID ...",
+          "content": "La vacuna BioNTech/Pfizer, de reciente creación, se aplicó inicialmente en personal del sector salud expuesto a áreas destinadas para la atención de pacientes contagiados de COVID-19, que a pesar de la evidencia del inicio de la sintomatología, su estudio en nuestro país aún es limitado, por lo que el objetivo de la presente investigación fue evaluar la presencia y el tiempo de inicio de efectos adversos producidos por la vacuna contra COVID-19. En términos de la evaluación, la variable dependiente correspondió a los médicos residentes que decidieron participar en el estudio y a los que se les aplicó la vacuna BioNTech/Pfizer contra COVID, quienes contestaron un instrumento de evaluación en formato de cuestionario de opción múltiple con 19 reactivos, los cuales incluyeron datos como edad, sexo, tipo de especialidad médica, año de residencia, fechas de aplicación de vacuna BioNTech/Pfizer, selección de sintomatología presentada inicio, duración y si requirieron de algún tratamiento.",
+          "score": 0.22078775,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.heart.org/en/news/2023/10/06/lo-que-las-personas-con-enfermedad-cardiaca-deben-saber-sobre-las-vacunas",
+          "title": "Lo que las personas con enfermedad cardíaca deben ...",
+          "content": "Oct 6, 2023—Las vacunas pueden tener efectos secundarios. Por ejemplo, lavacuna contraelCOVID-19 ha estado vinculada a casos raros de miocarditis y",
+          "score": 0.19613276,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5
+    }
+  }
+}

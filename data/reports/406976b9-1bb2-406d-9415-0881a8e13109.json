@@ -1,0 +1,135 @@
+{
+  "content_id": "406976b9-1bb2-406d-9415-0881a8e13109",
+  "format": "video",
+  "source": "ui",
+  "category": "Geral",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759616569.567059,
+  "updated_at": 1759616576.0086455,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-especialista em mídia",
+        "role": "Especialista em Mídia",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "Como especialista em análise de mídia, não consigo determinar a credibilidade ou autenticidade de um arquivo de vídeo apenas com base nas informações ...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-detector de deepfake",
+        "role": "Detector de Deepfake",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "Como não é possível analisar o conteúdo do vídeo em si, não posso determinar se há sinais de adulteração. Recomendo que você verifique a fonte do víde...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista forense",
+        "role": "Analista Forense",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Descontextualizado",
+        "confidence": 0.8,
+        "reasoning": "Considerando as informações fornecidas, não é possível avaliar a integridade ou origem do arquivo \"1.mp4\" apenas com base nos detalhes apresentados. P...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador de conteúdo",
+        "role": "Verificador de Conteúdo",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "Como verificador de conteúdo, não consigo determinar a autenticidade de um arquivo apenas com base em informações textuais. Recomendo que você verifiq...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-especialista em metadados",
+        "role": "Especialista em Metadados",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "As informações técnicas fornecidas são VERDADEIRAS. Elas descrevem corretamente o arquivo de mídia \"1.mp4\" como sendo um vídeo, com o caminho e tamanh...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [],
+    "veracity_score": 0.583,
+    "final_label": "Verdadeiro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-especialista em mídia",
+            "role": "Especialista em Mídia",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "Como especialista em análise de mídia, não consigo determinar a credibilidade ou autenticidade de um arquivo de vídeo apenas com base nas informações ...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-detector de deepfake",
+            "role": "Detector de Deepfake",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "Como não é possível analisar o conteúdo do vídeo em si, não posso determinar se há sinais de adulteração. Recomendo que você verifique a fonte do víde...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista forense",
+            "role": "Analista Forense",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Descontextualizado",
+            "confidence": 0.8,
+            "reasoning": "Considerando as informações fornecidas, não é possível avaliar a integridade ou origem do arquivo \"1.mp4\" apenas com base nos detalhes apresentados. P...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador de conteúdo",
+            "role": "Verificador de Conteúdo",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "Como verificador de conteúdo, não consigo determinar a autenticidade de um arquivo apenas com base em informações textuais. Recomendo que você verifiq...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-especialista em metadados",
+            "role": "Especialista em Metadados",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "As informações técnicas fornecidas são VERDADEIRAS. Elas descrevem corretamente o arquivo de mídia \"1.mp4\" como sendo um vídeo, com o caminho e tamanh...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": {
+        "message": "Busca web não aplicável para video"
+      },
+      "method": "real_apis",
+      "total_checkers": 5
+    }
+  }
+}

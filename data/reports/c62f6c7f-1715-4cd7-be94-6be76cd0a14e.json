@@ -1,0 +1,207 @@
+{
+  "content_id": "c62f6c7f-1715-4cd7-be94-6be76cd0a14e",
+  "format": "video",
+  "source": "ui",
+  "category": "Geral",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759616993.1482172,
+  "updated_at": 1759617002.6879833,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-especialista em mídia",
+        "role": "Especialista em Mídia",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A credibilidade e autenticidade deste arquivo é VERDADEIRA. O arquivo de vídeo foi analisado de forma objetiva, apresentando informações claras sobre ...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-detector de deepfake",
+        "role": "Detector de Deepfake",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "Não há evidências de adulteração no conteúdo fornecido. A informação apresentada parece ser autêntica e coerente, não havendo indícios de manipulação....",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista forense",
+        "role": "Analista Forense",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A avaliação deste arquivo é VERDADEIRA. O arquivo é identificado como um vídeo, possui um nome genérico (\"1.mp4\"), está localizado em um diretório tem...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador de conteúdo",
+        "role": "Verificador de Conteúdo",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. O conteúdo apresentado parece autêntico, consistindo em informações sobre um arquivo de mídia de vídeo, incluindo detalhes como nome, cami...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-especialista em metadados",
+        "role": "Especialista em Metadados",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação fornecida é VERDADEIRA. O arquivo de vídeo não possui metadados disponíveis para análise específica do conteúdo sem assisti-lo, o que é u...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://helpx.adobe.com/br/elements-organizer/using/tag-media.html",
+        "title": "Inserir tag em sua mídia",
+        "content": "Você pode usar as tags de palavras-chave para identificar fotos e vídeos com palavras-chave e recuperar arquivos ou álbuns de mídia específicos.",
+        "score": 0.6100127,
+        "raw_content": null
+      },
+      {
+        "url": "https://helpx.adobe.com/br/elements-organizer/using/finding-media-files-keyword-tags.html",
+        "title": "Localizar arquivos de mídia por marcas de palavra-chave",
+        "content": "O filtro de avaliações de estrela ajuda a localizar suas fotos, clipes de vídeo, clipes de áudio e projetos favoritos (ou menos favoritos).",
+        "score": 0.56719416,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.mpisolutions.com.br/blog/palavras-chaves-para-videos-do-youtube-guia-completo/",
+        "title": "Palavras Chaves para Vídeos do YouTube: Guia Completo",
+        "content": "No contexto do YouTube, palavras-chave são os termos que os usuários digitam na barra de pesquisa. Elas ajudam o algoritmo a entender o tema do",
+        "score": 0.43093804,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.reddit.com/r/videography/comments/gs04kn/how_to_catalogue_and_key_word_all_your_raw/?tl=pt-br",
+        "title": "Como catalogar e adicionar palavras-chave a todas as ...",
+        "content": "A marcação por palavras-chave existe no Windows há anos. É só clicar com o botão direito num arquivo de vídeo/imagem e adicionar quantas",
+        "score": 0.42033842,
+        "raw_content": null
+      },
+      {
+        "url": "https://support.google.com/google-ads/answer/2454017?hl=pt-BR",
+        "title": "Sobre a segmentação de campanhas de vídeo",
+        "content": "Palavras-chave: dependendo do formato dos anúncios em vídeo, é possível veicular a publicidade com base em palavras ou frases (palavras-chave) relacionadas a um",
+        "score": 0.37284824,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 1.0,
+    "final_label": "Verdadeiro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-especialista em mídia",
+            "role": "Especialista em Mídia",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A credibilidade e autenticidade deste arquivo é VERDADEIRA. O arquivo de vídeo foi analisado de forma objetiva, apresentando informações claras sobre ...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-detector de deepfake",
+            "role": "Detector de Deepfake",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "Não há evidências de adulteração no conteúdo fornecido. A informação apresentada parece ser autêntica e coerente, não havendo indícios de manipulação....",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista forense",
+            "role": "Analista Forense",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A avaliação deste arquivo é VERDADEIRA. O arquivo é identificado como um vídeo, possui um nome genérico (\"1.mp4\"), está localizado em um diretório tem...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador de conteúdo",
+            "role": "Verificador de Conteúdo",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. O conteúdo apresentado parece autêntico, consistindo em informações sobre um arquivo de mídia de vídeo, incluindo detalhes como nome, cami...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-especialista em metadados",
+            "role": "Especialista em Metadados",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação fornecida é VERDADEIRA. O arquivo de vídeo não possui metadados disponíveis para análise específica do conteúdo sem assisti-lo, o que é u...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://helpx.adobe.com/br/elements-organizer/using/tag-media.html",
+          "title": "Inserir tag em sua mídia",
+          "content": "Você pode usar as tags de palavras-chave para identificar fotos e vídeos com palavras-chave e recuperar arquivos ou álbuns de mídia específicos.",
+          "score": 0.6100127,
+          "raw_content": null
+        },
+        {
+          "url": "https://helpx.adobe.com/br/elements-organizer/using/finding-media-files-keyword-tags.html",
+          "title": "Localizar arquivos de mídia por marcas de palavra-chave",
+          "content": "O filtro de avaliações de estrela ajuda a localizar suas fotos, clipes de vídeo, clipes de áudio e projetos favoritos (ou menos favoritos).",
+          "score": 0.56719416,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.mpisolutions.com.br/blog/palavras-chaves-para-videos-do-youtube-guia-completo/",
+          "title": "Palavras Chaves para Vídeos do YouTube: Guia Completo",
+          "content": "No contexto do YouTube, palavras-chave são os termos que os usuários digitam na barra de pesquisa. Elas ajudam o algoritmo a entender o tema do",
+          "score": 0.43093804,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.reddit.com/r/videography/comments/gs04kn/how_to_catalogue_and_key_word_all_your_raw/?tl=pt-br",
+          "title": "Como catalogar e adicionar palavras-chave a todas as ...",
+          "content": "A marcação por palavras-chave existe no Windows há anos. É só clicar com o botão direito num arquivo de vídeo/imagem e adicionar quantas",
+          "score": 0.42033842,
+          "raw_content": null
+        },
+        {
+          "url": "https://support.google.com/google-ads/answer/2454017?hl=pt-BR",
+          "title": "Sobre a segmentação de campanhas de vídeo",
+          "content": "Palavras-chave: dependendo do formato dos anúncios em vídeo, é possível veicular a publicidade com base em palavras ou frases (palavras-chave) relacionadas a um",
+          "score": 0.37284824,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5,
+      "extracted_context": "Palavras-chave: vídeo, arquivo, mídia, análise\nContexto: Não é possível extrair informações específicas do conteúdo do vídeo sem assisti-lo.",
+      "search_query": "palavras chave vídeo arquivo mídia"
+    }
+  }
+}

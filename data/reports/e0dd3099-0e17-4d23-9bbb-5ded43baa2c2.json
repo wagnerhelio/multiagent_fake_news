@@ -1,0 +1,205 @@
+{
+  "content_id": "e0dd3099-0e17-4d23-9bbb-5ded43baa2c2",
+  "format": "text",
+  "source": "ui",
+  "category": "Saúde",
+  "gut": {
+    "G": 3,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 33,
+  "created_at": 1759616215.0756428,
+  "updated_at": 1759616224.7647727,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. A informação apresentada no conteúdo sobre o voto do ministro Flávio Dino na Primeira Turma do STF para manter a decisão que livrou a Petrobras...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação é FALSA. Os trechos de evidências encontradas não têm relação com a notícia original sobre a decisão da Primeira Turma do STF em relação ...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "Considerando o conteúdo apresentado e as evidências encontradas, a notícia parece ser VERDADEIRA. O voto do ministro Flávio Dino na Primeira Turma do ...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO\n\nO conteúdo apresentado relata uma decisão da Primeira Turma do Supremo Tribunal Federal, com destaque para o voto do ministro Flávio Dino,...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. O conteúdo apresentado sobre o voto do ministro Flávio Dino na Primeira Turma do STF para manter a decisão que livrou a Petrobras de uma m...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.instagram.com/p/DPZcSw3kW-9/",
+        "title": "Com o voto do ministro Flávio Dino, a Primeira Turma do ...",
+        "content": "Com ovotodo ministro FlávioDino, aPrimeira Turmado Supremo Tribunal Federal (STF) formou maioria paramanterSergio Moro (União Brasil) réu",
+        "score": 0.7533401,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.em.com.br/politica/2025/10/7263073-supremo-mantem-sergio-moro-reu-por-calunia-contra-gilmar-mendes.html",
+        "title": "Supremo mantém Sergio Moro réu por calúnia contra ...",
+        "content": "4 hours ago—Com trêsvotosa favor — de Cármen Lúcia, Moraes e FlávioDino—, aPrimeira Turmajá tem maioria paramantero ex-juiz da Lava-Jato como réu.",
+        "score": 0.68697983,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.threads.com/@eudilmadebochada/post/DPZpeqaiaH3/video-grande-dia-flávio-dino-acompanha-os-votos-de-alexandre-de-moraes-e-carmen-lúcia-",
+        "title": "GRANDE DIA 🎉🍾 Flávio Dino acompanha os votos de ...",
+        "content": "2 hours ago—GRANDE DIA FlávioDinoacompanha osvotosde Alexandre de Moraes e Carmen Lúcia eprimeira turmado STF forma maioria paramanterSérgio Moro",
+        "score": 0.66569364,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.reporterdiario.com.br/noticia/3712602/primeira-turma-do-stf-mantem-moro-reu-por-sugerir-que-gilmar-mendes-vende-sentencas/",
+        "title": "Primeira Turma do STF mantém Moro réu por sugerir que ...",
+        "content": "6 hours ago—APrimeira Turmado Supremo Tribunal Federal (STF) formou maioria neste sábado,4, paramantero senador Sergio Moro (União-PR) réu por insinuar",
+        "score": 0.509887,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.metropoles.com/brasil/stf-tem-maioria-para-manter-moro-reu-por-calunia-contra-gilmar",
+        "title": "STF tem maioria para manter Moro réu por calúnia contra ...",
+        "content": "7 hours ago—Comvotode três dos cinco ministros daPrimeira Turma, o STFmantémMoro como réu em ação penal por calúnia contra Gilmar Mendes. 7 imagens.",
+        "score": 0.5097406,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.833,
+    "final_label": "Verdadeiro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. A informação apresentada no conteúdo sobre o voto do ministro Flávio Dino na Primeira Turma do STF para manter a decisão que livrou a Petrobras...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação é FALSA. Os trechos de evidências encontradas não têm relação com a notícia original sobre a decisão da Primeira Turma do STF em relação ...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "Considerando o conteúdo apresentado e as evidências encontradas, a notícia parece ser VERDADEIRA. O voto do ministro Flávio Dino na Primeira Turma do ...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO\n\nO conteúdo apresentado relata uma decisão da Primeira Turma do Supremo Tribunal Federal, com destaque para o voto do ministro Flávio Dino,...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. O conteúdo apresentado sobre o voto do ministro Flávio Dino na Primeira Turma do STF para manter a decisão que livrou a Petrobras de uma m...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://www.instagram.com/p/DPZcSw3kW-9/",
+          "title": "Com o voto do ministro Flávio Dino, a Primeira Turma do ...",
+          "content": "Com ovotodo ministro FlávioDino, aPrimeira Turmado Supremo Tribunal Federal (STF) formou maioria paramanterSergio Moro (União Brasil) réu",
+          "score": 0.7533401,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.em.com.br/politica/2025/10/7263073-supremo-mantem-sergio-moro-reu-por-calunia-contra-gilmar-mendes.html",
+          "title": "Supremo mantém Sergio Moro réu por calúnia contra ...",
+          "content": "4 hours ago—Com trêsvotosa favor — de Cármen Lúcia, Moraes e FlávioDino—, aPrimeira Turmajá tem maioria paramantero ex-juiz da Lava-Jato como réu.",
+          "score": 0.68697983,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.threads.com/@eudilmadebochada/post/DPZpeqaiaH3/video-grande-dia-flávio-dino-acompanha-os-votos-de-alexandre-de-moraes-e-carmen-lúcia-",
+          "title": "GRANDE DIA 🎉🍾 Flávio Dino acompanha os votos de ...",
+          "content": "2 hours ago—GRANDE DIA FlávioDinoacompanha osvotosde Alexandre de Moraes e Carmen Lúcia eprimeira turmado STF forma maioria paramanterSérgio Moro",
+          "score": 0.66569364,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.reporterdiario.com.br/noticia/3712602/primeira-turma-do-stf-mantem-moro-reu-por-sugerir-que-gilmar-mendes-vende-sentencas/",
+          "title": "Primeira Turma do STF mantém Moro réu por sugerir que ...",
+          "content": "6 hours ago—APrimeira Turmado Supremo Tribunal Federal (STF) formou maioria neste sábado,4, paramantero senador Sergio Moro (União-PR) réu por insinuar",
+          "score": 0.509887,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.metropoles.com/brasil/stf-tem-maioria-para-manter-moro-reu-por-calunia-contra-gilmar",
+          "title": "STF tem maioria para manter Moro réu por calúnia contra ...",
+          "content": "7 hours ago—Comvotode três dos cinco ministros daPrimeira Turma, o STFmantémMoro como réu em ação penal por calúnia contra Gilmar Mendes. 7 imagens.",
+          "score": 0.5097406,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5
+    }
+  }
+}

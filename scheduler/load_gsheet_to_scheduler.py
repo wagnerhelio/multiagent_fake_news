@@ -9,7 +9,7 @@ Mapeamento automático tenta colunas: 'text' | 'Texto_Original' | 'conteudo'.
 """
 import argparse
 import pandas as pd
-from multiagent_gut_scheduler import Orchestrator
+from multiagent_gut_scheduler import enqueue_content, process_round
 
 def row_to_item(row: dict) -> dict:
     txt = row.get("text") or row.get("Texto_Original") or row.get("conteudo") or ""
@@ -25,15 +25,14 @@ def main():
     args = ap.parse_args()
 
     df = pd.read_csv(args.csv).head(args.limit)
-    orch = Orchestrator()
     for _, row in df.iterrows():
         item = row_to_item(row.to_dict())
-        meta = orch.ingest_and_enqueue(item)
-        print(f"+ Enfileirado {meta['id']} cat={meta['category']} priority={meta['overall_priority']}")
+        meta = enqueue_content(content_type=item['type'], source=item['source'], content=item['raw_content'])
+        print(f"+ Enfileirado {meta['content_id']} cat={meta['category']} priority={meta['priority']}")
     if args.process:
-        out = orch.run_once()
+        out = process_round()
         for o in out:
-            print(f"✓ Relatório: {o['report']['report_path']}  label={o['consensus']['final_label']} score={o['consensus']['veracity_score']}")
+            print(f"✓ Processado: {o['content_id']}  label={o['consensus']['final_label']} score={o['consensus']['veracity_score']}")
 
 if __name__ == "__main__":
     main()

@@ -7,14 +7,14 @@ import subprocess
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-ROOT = Path(__file__).resolve().parent
-SCHED_SCRIPT = ROOT / "multiagent_gut_scheduler.py"
-REPORTS_DIR = ROOT / "reports"
+ROOT = Path(__file__).resolve().parent.parent
+SCHED_SCRIPT = ROOT / "scheduler" / "multiagent_gut_scheduler.py"
+REPORTS_DIR = ROOT / "data" / "reports"
 REPORTS_DIR.mkdir(exist_ok=True)
 
 _NATIVE = {}
 try:
-    from multiagent_gut_scheduler import enqueue_content, process_round, get_status  # type: ignore
+    from scheduler.multiagent_gut_scheduler import enqueue_content, process_round, get_status  # type: ignore
     _NATIVE["ok"] = True
 except Exception:
     _NATIVE["ok"] = False

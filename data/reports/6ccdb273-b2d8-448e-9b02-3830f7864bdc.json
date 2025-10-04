@@ -1,0 +1,159 @@
+{
+  "content_id": "6ccdb273-b2d8-448e-9b02-3830f7864bdc",
+  "format": "text",
+  "source": "test",
+  "category": "Geral",
+  "gut": {
+    "G": 3,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 33,
+  "created_at": 1759615392.0343308,
+  "updated_at": 1759615394.9853103,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista-error",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+        "source": "openai",
+        "error": "\n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+      },
+      {
+        "id": "openai-fact-checker-error",
+        "role": "Fact-Checker",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+        "source": "openai",
+        "error": "\n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+      },
+      {
+        "id": "openai-pesquisador-error",
+        "role": "Pesquisador",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+        "source": "openai",
+        "error": "\n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+      },
+      {
+        "id": "openai-analista-error",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+        "source": "openai",
+        "error": "\n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+      },
+      {
+        "id": "openai-verificador-error",
+        "role": "Verificador",
+        "tier": "bronze",
+        "reputation": 0.5,
+        "verdict": "Erro",
+        "confidence": 0.0,
+        "reasoning": "Erro na análise: \n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n",
+        "source": "openai",
+        "error": "\n\nYou tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.\n\nYou can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. \n\nAlternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`\n\nA detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742\n"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://epocanegocios.globo.com/ciencia-e-saude/noticia/2025/06/duas-descobertas-no-tratamento-do-cancer-surpreendem-especialistas-do-mundo-todo-saiba-quais-sao.ghtml",
+        "title": "Duas descobertas no tratamento do câncer surpreendem ...",
+        "content": "Jun 16, 2025—Na comparação com a oxaliplatina, medicamento quimioterápico comum paracâncerde cólon, ela proporciona um aumento de 5% na sobrevida global em",
+        "score": 0.37717408,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.bbc.com/portuguese/articles/c4n6zxpedrro",
+        "title": "Câncer: o médico que descobriu tratamento ao buscar ...",
+        "content": "Feb 15, 2024—Na última década, a pesquisa da equipe deles sobre imunoterapia, que usa o sistema imunológico do corpo para atacar células cancerosas, melhorou",
+        "score": 0.32662624,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.unensayoparami.org/pt/noticias-medicas/artigo/cancer-cura-avanco-cientifico",
+        "title": "A cura do câncer é possível? Avanços na pesquisa científica",
+        "content": "*   Cookiebot 1Learn more about this providerImage 2**CookieConsent**Stores the user's cookie consent state for the current domain**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie    O9@$**Registers a unique ID to keep statistics of what videos from YouTube the user has seen.**Maximum Storage Duration**: Session**Type**: HTML Local Storage  **LAST_RESULT_ENTRY_KEY**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Session**Type**: HTTP Cookie  **LogsDatabaseV2:V#||LogsRequestsStore**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: IndexedDB  **remote_sid**Necessary for the implementation and functionality of YouTube video-content on the website. Descubra como os avanços em vacinas personalizadas e imunoterapia estão revolucionando os tratamentos contra o câncer, aproximando-nos cada vez mais de uma possível cura. Uma pesquisa clínica em pacientes com melanoma avançado mostrou que essas vacinas podem **manter o câncer sob controle por anos**.",
+        "score": 0.29979196,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.oncoguia.org.br/conteudo/nova-pesquisa-revela-descobertas-sobre-tratamento-do-cancer-colorretal/17763/7/",
+        "title": "Nova pesquisa revela descobertas sobre tratamento do ...",
+        "content": "*   Câncer No entanto, as taxas da doença estão aumentando entre os adultos mais jovens, e as pesquisas estimam que, até 2030, o câncer colorretal se tornará a principal causa de morte por câncer entre pessoas de 20 a 49 anos. O Braftovi atua em uma mutação específica de uma proteína que causa crescimento celular anormal e já tem aprovação da FDA (agência reguladora dos EUA) para tratar alguns tipos de câncer. *   O que causa e quais os sintomas do câncer de esôfago? *   Rita Lee e câncer de pulmão: Entenda o que é a remissão da doença *   Estudo da USP Ribeirão Preto identifica o que desenvolve e faz piorar dor associada ao tratamento de câncer",
+        "score": 0.29214627,
+        "raw_content": null
+      },
+      {
+        "url": "https://olhardigital.com.br/2024/06/05/medicina-e-saude/acharam-a-cura-do-cancer-100-de-pacientes-que-fizeram-este-tratamento-se-recuperaram/",
+        "title": "Acharam a cura do câncer? Todos os pacientes que ...",
+        "content": "Jun 5, 2024—Um novo medicamento voltado para ocâncerretal localmente avançado está sendo chamado de resposta \"sem precedentes\" pelos pesquisadores.",
+        "score": 0.2553766,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.5,
+    "final_label": "Erro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 0,
+        "successful_checks": 0,
+        "results": []
+      },
+      "tavily": [
+        {
+          "url": "https://epocanegocios.globo.com/ciencia-e-saude/noticia/2025/06/duas-descobertas-no-tratamento-do-cancer-surpreendem-especialistas-do-mundo-todo-saiba-quais-sao.ghtml",
+          "title": "Duas descobertas no tratamento do câncer surpreendem ...",
+          "content": "Jun 16, 2025—Na comparação com a oxaliplatina, medicamento quimioterápico comum paracâncerde cólon, ela proporciona um aumento de 5% na sobrevida global em",
+          "score": 0.37717408,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.bbc.com/portuguese/articles/c4n6zxpedrro",
+          "title": "Câncer: o médico que descobriu tratamento ao buscar ...",
+          "content": "Feb 15, 2024—Na última década, a pesquisa da equipe deles sobre imunoterapia, que usa o sistema imunológico do corpo para atacar células cancerosas, melhorou",
+          "score": 0.32662624,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.unensayoparami.org/pt/noticias-medicas/artigo/cancer-cura-avanco-cientifico",
+          "title": "A cura do câncer é possível? Avanços na pesquisa científica",
+          "content": "*   Cookiebot 1Learn more about this providerImage 2**CookieConsent**Stores the user's cookie consent state for the current domain**Maximum Storage Duration**: 1 year**Type**: HTTP Cookie    O9@$**Registers a unique ID to keep statistics of what videos from YouTube the user has seen.**Maximum Storage Duration**: Session**Type**: HTML Local Storage  **LAST_RESULT_ENTRY_KEY**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Session**Type**: HTTP Cookie  **LogsDatabaseV2:V#||LogsRequestsStore**Used to track user’s interaction with embedded content.**Maximum Storage Duration**: Persistent**Type**: IndexedDB  **remote_sid**Necessary for the implementation and functionality of YouTube video-content on the website. Descubra como os avanços em vacinas personalizadas e imunoterapia estão revolucionando os tratamentos contra o câncer, aproximando-nos cada vez mais de uma possível cura. Uma pesquisa clínica em pacientes com melanoma avançado mostrou que essas vacinas podem **manter o câncer sob controle por anos**.",
+          "score": 0.29979196,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.oncoguia.org.br/conteudo/nova-pesquisa-revela-descobertas-sobre-tratamento-do-cancer-colorretal/17763/7/",
+          "title": "Nova pesquisa revela descobertas sobre tratamento do ...",
+          "content": "*   Câncer No entanto, as taxas da doença estão aumentando entre os adultos mais jovens, e as pesquisas estimam que, até 2030, o câncer colorretal se tornará a principal causa de morte por câncer entre pessoas de 20 a 49 anos. O Braftovi atua em uma mutação específica de uma proteína que causa crescimento celular anormal e já tem aprovação da FDA (agência reguladora dos EUA) para tratar alguns tipos de câncer. *   O que causa e quais os sintomas do câncer de esôfago? *   Rita Lee e câncer de pulmão: Entenda o que é a remissão da doença *   Estudo da USP Ribeirão Preto identifica o que desenvolve e faz piorar dor associada ao tratamento de câncer",
+          "score": 0.29214627,
+          "raw_content": null
+        },
+        {
+          "url": "https://olhardigital.com.br/2024/06/05/medicina-e-saude/acharam-a-cura-do-cancer-100-de-pacientes-que-fizeram-este-tratamento-se-recuperaram/",
+          "title": "Acharam a cura do câncer? Todos os pacientes que ...",
+          "content": "Jun 5, 2024—Um novo medicamento voltado para ocâncerretal localmente avançado está sendo chamado de resposta \"sem precedentes\" pelos pesquisadores.",
+          "score": 0.2553766,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5
+    }
+  }
+}

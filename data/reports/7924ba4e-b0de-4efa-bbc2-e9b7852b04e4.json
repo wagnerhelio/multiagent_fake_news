@@ -1,0 +1,84 @@
+{
+  "content_id": "7924ba4e-b0de-4efa-bbc2-e9b7852b04e4",
+  "format": "text",
+  "source": "ui",
+  "category": "Economia",
+  "gut": {
+    "G": 4,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 38,
+  "created_at": 1759614681.5074463,
+  "updated_at": 1759614681.5079844,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "offline-agente-1",
+        "tier": "ouro",
+        "especialista": true,
+        "reputacao": 1.2,
+        "confianca": 0.868,
+        "parecer_label": "Descontextualizado",
+        "parecer_true": 0,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-2",
+        "tier": "prata",
+        "especialista": true,
+        "reputacao": 1.0,
+        "confianca": 0.824,
+        "parecer_label": "Falso",
+        "parecer_true": 0,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-3",
+        "tier": "prata",
+        "especialista": true,
+        "reputacao": 1.0,
+        "confianca": 0.835,
+        "parecer_label": "Falso",
+        "parecer_true": 0,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-4",
+        "tier": "prata",
+        "especialista": false,
+        "reputacao": 1.0,
+        "confianca": 0.743,
+        "parecer_label": "Falso",
+        "parecer_true": 0,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-5",
+        "tier": "prata",
+        "especialista": false,
+        "reputacao": 1.0,
+        "confianca": 0.771,
+        "parecer_label": "Sátira",
+        "parecer_true": 0,
+        "source": "offline_simulation"
+      }
+    ],
+    "veracity_score": 0.0,
+    "final_label": "Falso",
+    "method": "offline_simulation",
+    "analysis_breakdown": {
+      "openai": {
+        "status": "offline",
+        "message": "Modo offline ativo"
+      },
+      "tavily": {
+        "status": "offline",
+        "message": "Modo offline ativo"
+      },
+      "method": "offline_simulation",
+      "total_checkers": 5
+    }
+  }
+}

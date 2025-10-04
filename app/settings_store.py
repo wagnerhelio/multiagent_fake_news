@@ -4,7 +4,7 @@ import json
 import os
 from typing import Dict, Any
 
-STORE_FILE = Path("runtime_settings.json")
+STORE_FILE = Path("../config/runtime_settings.json")
 DEFAULTS: Dict[str, Any] = {
     "openai_api_key": None,
     "tavily_api_key": None,
