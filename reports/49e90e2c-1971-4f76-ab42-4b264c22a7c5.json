@@ -1,0 +1,110 @@
+{
+  "content": {
+    "id": "49e90e2c-1971-4f76-ab42-4b264c22a7c5",
+    "received_at": 1759453580,
+    "type": "text",
+    "source": "ui",
+    "category": "Geral",
+    "gut": {
+      "gravidade": 2,
+      "urgencia": 2,
+      "tendencia": 2,
+      "prioridade": 8
+    },
+    "raw_excerpt": "teste"
+  },
+  "checkers": [
+    {
+      "id": "spec-ger-1",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Geral",
+      "reputation": 0.8032713739593427
+    },
+    {
+      "id": "spec-ger-2",
+      "role": "especialista",
+      "level": "ouro",
+      "specialty": "Geral",
+      "reputation": 0.8210468623100153
+    },
+    {
+      "id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.5202574996463025
+    },
+    {
+      "id": "ind-2",
+      "role": "independente",
+      "level": "prata",
+      "specialty": "geral",
+      "reputation": 0.7575574975206695
+    },
+    {
+      "id": "ind-3",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.5220588025956867
+    }
+  ],
+  "individual_findings": [
+    {
+      "checker_id": "spec-ger-1",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.8032713739593427,
+      "proposed_label": "Falso",
+      "confidence": 0.834
+    },
+    {
+      "checker_id": "spec-ger-2",
+      "role": "especialista",
+      "level": "ouro",
+      "reputation": 0.8210468623100153,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.766
+    },
+    {
+      "checker_id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.5202574996463025,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.819
+    },
+    {
+      "checker_id": "ind-2",
+      "role": "independente",
+      "level": "prata",
+      "reputation": 0.7575574975206695,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.679
+    },
+    {
+      "checker_id": "ind-3",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.5220588025956867,
+      "proposed_label": "Inconclusivo",
+      "confidence": 0.673
+    }
+  ],
+  "consensus": {
+    "veracity_score": 0.639,
+    "final_label": "Descontextualizado",
+    "explanation": {
+      "weighted_probability": 0.639,
+      "z_probit_like": 0.355,
+      "votes": {
+        "Falso": 1,
+        "Verdadeiro": 3,
+        "Inconclusivo": 1
+      },
+      "weights_hint": "Peso = reputação × confiança (normalizado)."
+    }
+  },
+  "generated_at": 1759453580
+}

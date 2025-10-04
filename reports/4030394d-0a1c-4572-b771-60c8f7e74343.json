@@ -1,0 +1,110 @@
+{
+  "content": {
+    "id": "4030394d-0a1c-4572-b771-60c8f7e74343",
+    "received_at": 1759453224,
+    "type": "text",
+    "source": "cli",
+    "category": "Política",
+    "gut": {
+      "gravidade": 5,
+      "urgencia": 5,
+      "tendencia": 5,
+      "prioridade": 125
+    },
+    "raw_excerpt": "URGENTE: vídeo viral, possível fraude no congresso."
+  },
+  "checkers": [
+    {
+      "id": "ind-3",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.5518628700250247
+    },
+    {
+      "id": "ind-2",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.7030661887791039
+    },
+    {
+      "id": "spec-pol-1",
+      "role": "especialista",
+      "level": "prata",
+      "specialty": "Política",
+      "reputation": 0.747597445440312
+    },
+    {
+      "id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.7328133113156567
+    },
+    {
+      "id": "spec-pol-2",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Política",
+      "reputation": 0.7572294758420395
+    }
+  ],
+  "individual_findings": [
+    {
+      "checker_id": "ind-3",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.5518628700250247,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.525
+    },
+    {
+      "checker_id": "ind-2",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.7030661887791039,
+      "proposed_label": "Inconclusivo",
+      "confidence": 0.84
+    },
+    {
+      "checker_id": "spec-pol-1",
+      "role": "especialista",
+      "level": "prata",
+      "reputation": 0.747597445440312,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.622
+    },
+    {
+      "checker_id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.7328133113156567,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.774
+    },
+    {
+      "checker_id": "spec-pol-2",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.7572294758420395,
+      "proposed_label": "Sátira",
+      "confidence": 0.663
+    }
+  ],
+  "consensus": {
+    "veracity_score": 0.761,
+    "final_label": "Verdadeiro",
+    "explanation": {
+      "weighted_probability": 0.761,
+      "z_probit_like": 0.708,
+      "votes": {
+        "Verdadeiro": 3,
+        "Inconclusivo": 1,
+        "Sátira": 1
+      },
+      "weights_hint": "Peso = reputação × confiança (normalizado)."
+    }
+  },
+  "generated_at": 1759453224
+}

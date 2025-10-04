@@ -1,0 +1,7 @@
+{
+  "openai_api_key": "sk-annotatedimage",
+  "tavily_api_key": "tvly-aaa",
+  "use_openai": true,
+  "use_tavily": true,
+  "offline_mode": false
+}

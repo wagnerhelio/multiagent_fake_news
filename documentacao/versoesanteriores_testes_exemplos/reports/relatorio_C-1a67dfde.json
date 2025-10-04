@@ -1,0 +1,111 @@
+{
+  "conteudo_id": "C-1a67dfde",
+  "formato": "audio",
+  "prioridade_GUT": {
+    "G": 3,
+    "U": 1,
+    "T": 2,
+    "prioridade": 6.0
+  },
+  "estado_final": "em_analise",
+  "unidade": {
+    "id": "U-5ec38ef6",
+    "nome": "Grupo MeiaPonte"
+  },
+  "checadores_env": [
+    {
+      "checador_id": "P-GRU-6",
+      "especialidade": "audio",
+      "reputacao": 0.273,
+      "prob_verdade": 0.4307,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-2",
+      "especialidade": "audio",
+      "reputacao": 0.433,
+      "prob_verdade": 0.4179,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-1",
+      "especialidade": "audio",
+      "reputacao": 0.633,
+      "prob_verdade": 0.3946,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-4",
+      "especialidade": "texto",
+      "reputacao": 0.645,
+      "prob_verdade": 0.1899,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-5",
+      "especialidade": "imagem",
+      "reputacao": 0.333,
+      "prob_verdade": 0.2857,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-7",
+      "especialidade": "imagem",
+      "reputacao": 0.587,
+      "prob_verdade": 0.2041,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-3",
+      "especialidade": "imagem",
+      "reputacao": 0.663,
+      "prob_verdade": 0.2603,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    }
+  ],
+  "consenso": {
+    "score_verdade": 0.2883371447070876,
+    "z_score": -1.8478892744044708,
+    "intervalo_conf": [
+      0.13449791378931258,
+      0.5136999219803292
+    ],
+    "decisoes_intermediarias": {
+      "logits": [
+        -0.27899574389697107,
+        -0.3314000848238203,
+        -0.42801680299910316,
+        -1.4506600790182054,
+        -0.9163607329241993,
+        -1.3608634799960047,
+        -1.0444098865933025
+      ],
+      "pesos": [
+        0.273,
+        0.433,
+        0.633,
+        0.645,
+        0.333,
+        0.587,
+        0.663
+      ],
+      "mean_logit": -0.9034738446062615,
+      "sd_logit": 0.4889220675288723
+    }
+  },
+  "rotulo_final": "MAIORIA_FALSO",
+  "payload_resumo": {
+    "titulo": "AUDIO | Caso f3d8be",
+    "fonte": "rede_social",
+    "hash": "61b02204d40f4fe9913b83865c6f0d0c"
+  },
+  "historico": [
+    "[2025-10-02 20:23:14] Conteúdo recebido e enfileirado",
+    "[2025-10-02 20:23:14] Despachado para unidade Grupo MeiaPonte (capacidade atual: 1/2)"
+  ],
+  "tempos": {
+    "inicio": 1759447394.334511,
+    "fim": null,
+    "duracao": 2.882215976715088
+  }
+}

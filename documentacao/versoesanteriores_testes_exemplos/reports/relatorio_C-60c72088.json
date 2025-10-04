@@ -1,0 +1,111 @@
+{
+  "conteudo_id": "C-60c72088",
+  "formato": "texto",
+  "prioridade_GUT": {
+    "G": 1,
+    "U": 4,
+    "T": 1,
+    "prioridade": 4.0
+  },
+  "estado_final": "em_analise",
+  "unidade": {
+    "id": "U-5ec38ef6",
+    "nome": "Grupo MeiaPonte"
+  },
+  "checadores_env": [
+    {
+      "checador_id": "P-GRU-4",
+      "especialidade": "texto",
+      "reputacao": 0.645,
+      "prob_verdade": 0.3602,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-5",
+      "especialidade": "imagem",
+      "reputacao": 0.333,
+      "prob_verdade": 0.1528,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-3",
+      "especialidade": "imagem",
+      "reputacao": 0.663,
+      "prob_verdade": 0.1775,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-2",
+      "especialidade": "audio",
+      "reputacao": 0.433,
+      "prob_verdade": 0.2809,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-6",
+      "especialidade": "audio",
+      "reputacao": 0.273,
+      "prob_verdade": 0.1621,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-1",
+      "especialidade": "audio",
+      "reputacao": 0.633,
+      "prob_verdade": 0.175,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-7",
+      "especialidade": "imagem",
+      "reputacao": 0.587,
+      "prob_verdade": 0.2588,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    }
+  ],
+  "consenso": {
+    "score_verdade": 0.22496753449078072,
+    "z_score": -2.861437955984858,
+    "intervalo_conf": [
+      0.11063984254162378,
+      0.40379539057677316
+    ],
+    "decisoes_intermediarias": {
+      "logits": [
+        -0.5744961947735616,
+        -1.7128069175547767,
+        -1.5333778737240567,
+        -0.9400016959982506,
+        -1.6426853328776103,
+        -1.550597412411167,
+        -1.0522149317844596
+      ],
+      "pesos": [
+        0.645,
+        0.333,
+        0.663,
+        0.433,
+        0.273,
+        0.633,
+        0.587
+      ],
+      "mean_logit": -1.2369488188142175,
+      "sd_logit": 0.4322822433479886
+    }
+  },
+  "rotulo_final": "MAIORIA_FALSO",
+  "payload_resumo": {
+    "titulo": "TEXTO | Caso 2c0c8c",
+    "fonte": "mensageria",
+    "hash": "e6efc7c9c5364fbe8552847e72633088"
+  },
+  "historico": [
+    "[2025-10-02 20:23:13] Conteúdo recebido e enfileirado",
+    "[2025-10-02 20:23:14] Despachado para unidade Grupo MeiaPonte (capacidade atual: 0/2)"
+  ],
+  "tempos": {
+    "inicio": 1759447394.1289454,
+    "fim": null,
+    "duracao": 3.084096908569336
+  }
+}

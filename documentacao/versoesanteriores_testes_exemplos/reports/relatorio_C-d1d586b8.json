@@ -1,0 +1,111 @@
+{
+  "conteudo_id": "C-d1d586b8",
+  "formato": "texto",
+  "prioridade_GUT": {
+    "G": 2,
+    "U": 1,
+    "T": 3,
+    "prioridade": 6.0
+  },
+  "estado_final": "em_analise",
+  "unidade": {
+    "id": "U-93c5f8c5",
+    "nome": "Grupo Aruana"
+  },
+  "checadores_env": [
+    {
+      "checador_id": "P-GRU-6",
+      "especialidade": "texto",
+      "reputacao": 0.904,
+      "prob_verdade": 0.3185,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-2",
+      "especialidade": "texto",
+      "reputacao": 0.33,
+      "prob_verdade": 0.3426,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-3",
+      "especialidade": "imagem",
+      "reputacao": 0.785,
+      "prob_verdade": 0.2106,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-4",
+      "especialidade": "imagem",
+      "reputacao": 0.686,
+      "prob_verdade": 0.176,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-5",
+      "especialidade": "audio",
+      "reputacao": 0.2,
+      "prob_verdade": 0.4071,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-7",
+      "especialidade": "imagem",
+      "reputacao": 0.489,
+      "prob_verdade": 0.2139,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-1",
+      "especialidade": "audio",
+      "reputacao": 0.612,
+      "prob_verdade": 0.3184,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    }
+  ],
+  "consenso": {
+    "score_verdade": 0.26066106985322135,
+    "z_score": -2.4311740119887526,
+    "intervalo_conf": [
+      0.1320421219592854,
+      0.4496589602134245
+    ],
+    "decisoes_intermediarias": {
+      "logits": [
+        -0.7606737761243693,
+        -0.6517290753400994,
+        -1.3213125635288716,
+        -1.54368653487132,
+        -0.3759668952043887,
+        -1.3015753947113509,
+        -0.7611345215448779
+      ],
+      "pesos": [
+        0.904,
+        0.33,
+        0.785,
+        0.686,
+        0.2,
+        0.489,
+        0.612
+      ],
+      "mean_logit": -1.0425354687994872,
+      "sd_logit": 0.4288197651251918
+    }
+  },
+  "rotulo_final": "MAIORIA_FALSO",
+  "payload_resumo": {
+    "titulo": "TEXTO | Caso 325d35",
+    "fonte": "blog",
+    "hash": "bcf6f10cf84c47f4b67481b722cab517"
+  },
+  "historico": [
+    "[2025-10-02 20:23:14] Conteúdo recebido e enfileirado",
+    "[2025-10-02 20:23:16] Despachado para unidade Grupo Aruana (capacidade atual: 1/2)"
+  ],
+  "tempos": {
+    "inicio": 1759447396.1909106,
+    "fim": null,
+    "duracao": 2.881951332092285
+  }
+}

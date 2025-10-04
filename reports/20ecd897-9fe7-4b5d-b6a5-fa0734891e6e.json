@@ -1,0 +1,109 @@
+{
+  "content": {
+    "id": "20ecd897-9fe7-4b5d-b6a5-fa0734891e6e",
+    "received_at": 1759459761,
+    "type": "text",
+    "source": "ui",
+    "category": "Esportes",
+    "gut": {
+      "gravidade": 5,
+      "urgencia": 5,
+      "tendencia": 2,
+      "prioridade": 50
+    },
+    "raw_excerpt": "\"A publicação é intitulada \"\"REVIRAVOLTA no FGTS 2024: Lula autorizou SAQUE TOTAL do FGTS? Saiba agora\"\". Ao navegar pela página, o leitor e convidado a clicar no link: \"\"Verifique se possui valores\"\". Ele recebe a falsa informação de que tem dinheiro a receber -- em um teste feito pelo Fato ou Fake"
+  },
+  "checkers": [
+    {
+      "id": "ind-2",
+      "role": "independente",
+      "level": "prata",
+      "specialty": "geral",
+      "reputation": 0.7869412513009517
+    },
+    {
+      "id": "spec-esp-3",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Esportes",
+      "reputation": 0.8963444148456943
+    },
+    {
+      "id": "spec-esp-2",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Esportes",
+      "reputation": 0.8091964776293985
+    },
+    {
+      "id": "ind-1",
+      "role": "independente",
+      "level": "prata",
+      "specialty": "geral",
+      "reputation": 0.6611403344871722
+    },
+    {
+      "id": "spec-esp-1",
+      "role": "especialista",
+      "level": "prata",
+      "specialty": "Esportes",
+      "reputation": 0.7570510247219517
+    }
+  ],
+  "individual_findings": [
+    {
+      "checker_id": "ind-2",
+      "role": "independente",
+      "level": "prata",
+      "reputation": 0.7869412513009517,
+      "proposed_label": "Falso",
+      "confidence": 0.652
+    },
+    {
+      "checker_id": "spec-esp-3",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.8963444148456943,
+      "proposed_label": "Falso",
+      "confidence": 0.719
+    },
+    {
+      "checker_id": "spec-esp-2",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.8091964776293985,
+      "proposed_label": "Falso",
+      "confidence": 0.689
+    },
+    {
+      "checker_id": "ind-1",
+      "role": "independente",
+      "level": "prata",
+      "reputation": 0.6611403344871722,
+      "proposed_label": "Falso",
+      "confidence": 0.605
+    },
+    {
+      "checker_id": "spec-esp-1",
+      "role": "especialista",
+      "level": "prata",
+      "reputation": 0.7570510247219517,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.633
+    }
+  ],
+  "consensus": {
+    "veracity_score": 0.248,
+    "final_label": "Falso",
+    "explanation": {
+      "weighted_probability": 0.248,
+      "z_probit_like": -0.682,
+      "votes": {
+        "Falso": 4,
+        "Verdadeiro": 1
+      },
+      "weights_hint": "Peso = reputação × confiança (normalizado)."
+    }
+  },
+  "generated_at": 1759459761
+}

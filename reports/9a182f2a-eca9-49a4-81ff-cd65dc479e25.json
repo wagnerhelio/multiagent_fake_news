@@ -1,0 +1,109 @@
+{
+  "content": {
+    "id": "9a182f2a-eca9-49a4-81ff-cd65dc479e25",
+    "received_at": 1759453151,
+    "type": "video",
+    "source": "Rede C",
+    "category": "Saúde",
+    "gut": {
+      "gravidade": 5,
+      "urgencia": 3,
+      "tendencia": 2,
+      "prioridade": 30
+    },
+    "raw_excerpt": "Vídeo recente sobre ataque e emergência em hospital."
+  },
+  "checkers": [
+    {
+      "id": "spec-saú-1",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Saúde",
+      "reputation": 0.6993827056220929
+    },
+    {
+      "id": "spec-saú-2",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Saúde",
+      "reputation": 0.6860384125847024
+    },
+    {
+      "id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.6729630649448406
+    },
+    {
+      "id": "spec-saú-3",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Saúde",
+      "reputation": 0.943928188449014
+    },
+    {
+      "id": "ind-2",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.532796551986527
+    }
+  ],
+  "individual_findings": [
+    {
+      "checker_id": "spec-saú-1",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.6993827056220929,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.728
+    },
+    {
+      "checker_id": "spec-saú-2",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.6860384125847024,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.551
+    },
+    {
+      "checker_id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.6729630649448406,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.695
+    },
+    {
+      "checker_id": "spec-saú-3",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.943928188449014,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.601
+    },
+    {
+      "checker_id": "ind-2",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.532796551986527,
+      "proposed_label": "Inconclusivo",
+      "confidence": 0.818
+    }
+  ],
+  "consensus": {
+    "veracity_score": 0.826,
+    "final_label": "Verdadeiro",
+    "explanation": {
+      "weighted_probability": 0.826,
+      "z_probit_like": 0.939,
+      "votes": {
+        "Verdadeiro": 4,
+        "Inconclusivo": 1
+      },
+      "weights_hint": "Peso = reputação × confiança (normalizado)."
+    }
+  },
+  "generated_at": 1759453151
+}

@@ -1,0 +1,109 @@
+{
+  "content": {
+    "id": "a3c29ba2-5e0f-4946-a3d3-0ef45ccf1491",
+    "received_at": 1759453151,
+    "type": "text",
+    "source": "Portal A",
+    "category": "Política",
+    "gut": {
+      "gravidade": 2,
+      "urgencia": 5,
+      "tendencia": 5,
+      "prioridade": 50
+    },
+    "raw_excerpt": "URGENTE: inflação sobe e gera debate acalorado no congresso. viral no WhatsApp."
+  },
+  "checkers": [
+    {
+      "id": "spec-pol-1",
+      "role": "especialista",
+      "level": "prata",
+      "specialty": "Política",
+      "reputation": 0.7158706561967847
+    },
+    {
+      "id": "ind-3",
+      "role": "independente",
+      "level": "prata",
+      "specialty": "geral",
+      "reputation": 0.5177459878897694
+    },
+    {
+      "id": "ind-1",
+      "role": "independente",
+      "level": "prata",
+      "specialty": "geral",
+      "reputation": 0.601507137942696
+    },
+    {
+      "id": "spec-pol-2",
+      "role": "especialista",
+      "level": "ouro",
+      "specialty": "Política",
+      "reputation": 0.8923648516976277
+    },
+    {
+      "id": "ind-2",
+      "role": "independente",
+      "level": "prata",
+      "specialty": "geral",
+      "reputation": 0.8413064501446371
+    }
+  ],
+  "individual_findings": [
+    {
+      "checker_id": "spec-pol-1",
+      "role": "especialista",
+      "level": "prata",
+      "reputation": 0.7158706561967847,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.817
+    },
+    {
+      "checker_id": "ind-3",
+      "role": "independente",
+      "level": "prata",
+      "reputation": 0.5177459878897694,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.697
+    },
+    {
+      "checker_id": "ind-1",
+      "role": "independente",
+      "level": "prata",
+      "reputation": 0.601507137942696,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.784
+    },
+    {
+      "checker_id": "spec-pol-2",
+      "role": "especialista",
+      "level": "ouro",
+      "reputation": 0.8923648516976277,
+      "proposed_label": "Falso",
+      "confidence": 0.669
+    },
+    {
+      "checker_id": "ind-2",
+      "role": "independente",
+      "level": "prata",
+      "reputation": 0.8413064501446371,
+      "proposed_label": "Verdadeiro",
+      "confidence": 0.893
+    }
+  ],
+  "consensus": {
+    "veracity_score": 0.727,
+    "final_label": "Descontextualizado",
+    "explanation": {
+      "weighted_probability": 0.727,
+      "z_probit_like": 0.605,
+      "votes": {
+        "Verdadeiro": 4,
+        "Falso": 1
+      },
+      "weights_hint": "Peso = reputação × confiança (normalizado)."
+    }
+  },
+  "generated_at": 1759453151
+}

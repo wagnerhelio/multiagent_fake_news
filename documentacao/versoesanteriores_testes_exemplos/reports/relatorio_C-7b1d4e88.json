@@ -1,0 +1,111 @@
+{
+  "conteudo_id": "C-7b1d4e88",
+  "formato": "texto",
+  "prioridade_GUT": {
+    "G": 5,
+    "U": 2,
+    "T": 5,
+    "prioridade": 50.0
+  },
+  "estado_final": "em_analise",
+  "unidade": {
+    "id": "U-1298af4b",
+    "nome": "Grupo Anhanguera"
+  },
+  "checadores_env": [
+    {
+      "checador_id": "P-GRU-1",
+      "especialidade": "texto",
+      "reputacao": 0.2,
+      "prob_verdade": 0.2856,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-4",
+      "especialidade": "audio",
+      "reputacao": 0.646,
+      "prob_verdade": 0.3688,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-6",
+      "especialidade": "imagem",
+      "reputacao": 0.823,
+      "prob_verdade": 0.3056,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-3",
+      "especialidade": "video",
+      "reputacao": 0.326,
+      "prob_verdade": 0.3785,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-7",
+      "especialidade": "video",
+      "reputacao": 0.59,
+      "prob_verdade": 0.2932,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-5",
+      "especialidade": "audio",
+      "reputacao": 0.98,
+      "prob_verdade": 0.3314,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    },
+    {
+      "checador_id": "P-GRU-2",
+      "especialidade": "video",
+      "reputacao": 0.852,
+      "prob_verdade": 0.1337,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato texto."
+    }
+  ],
+  "consenso": {
+    "score_verdade": 0.2802272537523834,
+    "z_score": -2.0436746076307837,
+    "intervalo_conf": [
+      0.1361024678527072,
+      0.4903454120756471
+    ],
+    "decisoes_intermediarias": {
+      "logits": [
+        -0.9168507990968598,
+        -0.5373682778492256,
+        -0.820771106053775,
+        -0.49591983807326223,
+        -0.8798927704330448,
+        -0.7018598689935358,
+        -1.868632784788197
+      ],
+      "pesos": [
+        0.2,
+        0.646,
+        0.823,
+        0.326,
+        0.59,
+        0.98,
+        0.852
+      ],
+      "mean_logit": -0.9433346374491323,
+      "sd_logit": 0.46158749241530816
+    }
+  },
+  "rotulo_final": "MAIORIA_FALSO",
+  "payload_resumo": {
+    "titulo": "TEXTO | Caso 741ade",
+    "fonte": "blog",
+    "hash": "5526c64677f0487ebe3c5f461f793646"
+  },
+  "historico": [
+    "[2025-10-02 20:23:13] Conteúdo recebido e enfileirado",
+    "[2025-10-02 20:23:13] Despachado para unidade Grupo Anhanguera (capacidade atual: 0/2)"
+  ],
+  "tempos": {
+    "inicio": 1759447393.5084639,
+    "fim": null,
+    "duracao": 0.5076758861541748
+  }
+}

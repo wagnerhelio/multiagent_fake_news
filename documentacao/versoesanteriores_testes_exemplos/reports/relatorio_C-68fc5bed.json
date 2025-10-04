@@ -1,0 +1,111 @@
+{
+  "conteudo_id": "C-68fc5bed",
+  "formato": "video",
+  "prioridade_GUT": {
+    "G": 5,
+    "U": 5,
+    "T": 5,
+    "prioridade": 125.0
+  },
+  "estado_final": "em_analise",
+  "unidade": {
+    "id": "U-1298af4b",
+    "nome": "Grupo Anhanguera"
+  },
+  "checadores_env": [
+    {
+      "checador_id": "P-GRU-3",
+      "especialidade": "video",
+      "reputacao": 0.326,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato video."
+    },
+    {
+      "checador_id": "P-GRU-2",
+      "especialidade": "video",
+      "reputacao": 0.852,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato video."
+    },
+    {
+      "checador_id": "P-GRU-7",
+      "especialidade": "video",
+      "reputacao": 0.59,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato video."
+    },
+    {
+      "checador_id": "P-GRU-6",
+      "especialidade": "imagem",
+      "reputacao": 0.823,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato video."
+    },
+    {
+      "checador_id": "P-GRU-1",
+      "especialidade": "texto",
+      "reputacao": 0.2,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato video."
+    },
+    {
+      "checador_id": "P-GRU-5",
+      "especialidade": "audio",
+      "reputacao": 0.98,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato video."
+    },
+    {
+      "checador_id": "P-GRU-4",
+      "especialidade": "audio",
+      "reputacao": 0.646,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato video."
+    }
+  ],
+  "consenso": {
+    "score_verdade": 0.05000000000000001,
+    "z_score": -2944.4389791664403,
+    "intervalo_conf": [
+      0.049906982071591,
+      0.050093182156831624
+    ],
+    "decisoes_intermediarias": {
+      "logits": [
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403
+      ],
+      "pesos": [
+        0.326,
+        0.852,
+        0.59,
+        0.823,
+        0.2,
+        0.98,
+        0.646
+      ],
+      "mean_logit": -2.9444389791664403,
+      "sd_logit": 0.001
+    }
+  },
+  "rotulo_final": "FALSO",
+  "payload_resumo": {
+    "titulo": "ALTA PRIORIDADE - Caso crítico",
+    "fonte": "portal",
+    "hash": "1c7e93336ef641fb94d6a30afc65c0ab"
+  },
+  "historico": [
+    "[2025-10-02 20:23:13] Conteúdo recebido e enfileirado",
+    "[2025-10-02 20:23:14] Despachado para unidade Grupo Anhanguera (capacidade atual: 1/2)"
+  ],
+  "tempos": {
+    "inicio": 1759447394.1289454,
+    "fim": null,
+    "duracao": 0.5039210319519043
+  }
+}

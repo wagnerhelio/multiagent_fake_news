@@ -1,0 +1,111 @@
+{
+  "conteudo_id": "C-7512f907",
+  "formato": "audio",
+  "prioridade_GUT": {
+    "G": 2,
+    "U": 3,
+    "T": 2,
+    "prioridade": 12.0
+  },
+  "estado_final": "em_analise",
+  "unidade": {
+    "id": "U-1298af4b",
+    "nome": "Grupo Anhanguera"
+  },
+  "checadores_env": [
+    {
+      "checador_id": "P-GRU-5",
+      "especialidade": "audio",
+      "reputacao": 0.98,
+      "prob_verdade": 0.2796,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-4",
+      "especialidade": "audio",
+      "reputacao": 0.646,
+      "prob_verdade": 0.4352,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-3",
+      "especialidade": "video",
+      "reputacao": 0.326,
+      "prob_verdade": 0.3365,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-7",
+      "especialidade": "video",
+      "reputacao": 0.59,
+      "prob_verdade": 0.3269,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-1",
+      "especialidade": "texto",
+      "reputacao": 0.2,
+      "prob_verdade": 0.4872,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-6",
+      "especialidade": "imagem",
+      "reputacao": 0.823,
+      "prob_verdade": 0.4986,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    },
+    {
+      "checador_id": "P-GRU-2",
+      "especialidade": "video",
+      "reputacao": 0.852,
+      "prob_verdade": 0.3667,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato audio."
+    }
+  ],
+  "consenso": {
+    "score_verdade": 0.37672992948466194,
+    "z_score": -1.4016222853282243,
+    "intervalo_conf": [
+      0.23014945943986714,
+      0.5499737779114509
+    ],
+    "decisoes_intermediarias": {
+      "logits": [
+        -0.9464466029421457,
+        -0.2606659906372995,
+        -0.6789307046874797,
+        -0.7222395932865024,
+        -0.051211189210772785,
+        -0.005600014634735712,
+        -0.5464001684451042
+      ],
+      "pesos": [
+        0.98,
+        0.646,
+        0.326,
+        0.59,
+        0.2,
+        0.823,
+        0.852
+      ],
+      "mean_logit": -0.5034513615585067,
+      "sd_logit": 0.35919189272922497
+    }
+  },
+  "rotulo_final": "MAIORIA_FALSO",
+  "payload_resumo": {
+    "titulo": "AUDIO | Caso ac389f",
+    "fonte": "rede_social",
+    "hash": "53b1511a363041488396d74cadbdf213"
+  },
+  "historico": [
+    "[2025-10-02 20:23:15] Conteúdo recebido e enfileirado",
+    "[2025-10-02 20:23:15] Despachado para unidade Grupo Anhanguera (capacidade atual: 1/2)"
+  ],
+  "tempos": {
+    "inicio": 1759447395.5761828,
+    "fim": null,
+    "duracao": 2.3137574195861816
+  }
+}

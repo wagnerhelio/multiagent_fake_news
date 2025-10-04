@@ -1,0 +1,111 @@
+{
+  "conteudo_id": "C-ca1da016",
+  "formato": "imagem",
+  "prioridade_GUT": {
+    "G": 5,
+    "U": 5,
+    "T": 5,
+    "prioridade": 125.0
+  },
+  "estado_final": "em_analise",
+  "unidade": {
+    "id": "U-93c5f8c5",
+    "nome": "Grupo Aruana"
+  },
+  "checadores_env": [
+    {
+      "checador_id": "P-GRU-7",
+      "especialidade": "imagem",
+      "reputacao": 0.489,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato imagem."
+    },
+    {
+      "checador_id": "P-GRU-4",
+      "especialidade": "imagem",
+      "reputacao": 0.686,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato imagem."
+    },
+    {
+      "checador_id": "P-GRU-3",
+      "especialidade": "imagem",
+      "reputacao": 0.785,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato imagem."
+    },
+    {
+      "checador_id": "P-GRU-2",
+      "especialidade": "texto",
+      "reputacao": 0.33,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato imagem."
+    },
+    {
+      "checador_id": "P-GRU-6",
+      "especialidade": "texto",
+      "reputacao": 0.904,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato imagem."
+    },
+    {
+      "checador_id": "P-GRU-1",
+      "especialidade": "audio",
+      "reputacao": 0.612,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato imagem."
+    },
+    {
+      "checador_id": "P-GRU-5",
+      "especialidade": "audio",
+      "reputacao": 0.2,
+      "prob_verdade": 0.05,
+      "justificativa": "Análise heurística considerando sinais e contexto do formato imagem."
+    }
+  ],
+  "consenso": {
+    "score_verdade": 0.05000000000000001,
+    "z_score": -2944.4389791664403,
+    "intervalo_conf": [
+      0.049906982071591,
+      0.050093182156831624
+    ],
+    "decisoes_intermediarias": {
+      "logits": [
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403,
+        -2.9444389791664403
+      ],
+      "pesos": [
+        0.489,
+        0.686,
+        0.785,
+        0.33,
+        0.904,
+        0.612,
+        0.2
+      ],
+      "mean_logit": -2.9444389791664403,
+      "sd_logit": 0.001
+    }
+  },
+  "rotulo_final": "FALSO",
+  "payload_resumo": {
+    "titulo": "ALTA PRIORIDADE - Caso crítico",
+    "fonte": "portal",
+    "hash": "a7bee604193349fcb9267d34391598b6"
+  },
+  "historico": [
+    "[2025-10-02 20:23:14] Conteúdo recebido e enfileirado",
+    "[2025-10-02 20:23:14] Despachado para unidade Grupo Aruana (capacidade atual: 1/2)"
+  ],
+  "tempos": {
+    "inicio": 1759447394.9535425,
+    "fim": null,
+    "duracao": 0.48302721977233887
+  }
+}

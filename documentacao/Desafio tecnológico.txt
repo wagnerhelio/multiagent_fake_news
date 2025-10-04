@@ -1,0 +1,36 @@
+**Sistema Multiagente para Checagem de Fatos com *Scheduler *Inteligente  **
+
+**Contexto**
+
+Com a crescente circulação de notícias falsas em múltiplas mídias (texto, imagem, áudio e vídeo), mídias distorcidas (imagem e vídeo) e conteúdos fora do contexto, a sociedade demanda sistemas capazes de **avaliar, priorizar e verificar** conteúdos em larga escala. O surgimento de **IA generativa** torna o problema ainda mais desafiador, pois amplia a capacidade de criar conteúdos sintéticos convincentes.
+
+Neste cenário, uma agência de checagem virtual está sendo desenvolvida, necessitando de ferramentas que combinem **análise automática multimodal** com **checagem humana especializada**, orquestradas por mecanismos de governança e reputação.
+
+**Desafio**
+
+Desenvolver um **sistema multiagente** que implemente um **scheduler inteligente preemptivo por prioridade (GUT)** para organizar o fluxo de checagem de conteúdos multimodais, com as seguintes capacidades:
+- **Scheduler Central** - recebe conteúdos em filas de entrada, já previamente categorizados por formato e prioridade (matriz GUT). Executa o balanceamento de carga entre unidades de checagem disponíveis. Aplica política de preempção: se não houver capacidade, itens de menor prioridade podem ser suspensos (estado de espera) em favor de conteúdos mais críticos.
+- **Filas por Formato** - mantêm filas específicas (texto, áudio, vídeo, imagem). Interagem com o scheduler para sinalizar disponibilidade e consumo de recursos.
+- **Expedição **- que despacha de acordo com a prioridade baseada na **matriz GUT** (gravidade, urgência, tendência) e aplica **preempção** sempre que conteúdos de maior prioridade chegarem.
+- **Unidades de Checagem** - representam “grupos” de checadores anonimizados, compostos por no mínimo 5 perfis virtuais com atributos de especialidade e reputação. Recebem tarefas do *scheduler*, processam o conteúdo e retornam pareceres com a avaliação.
+- **Consenso **- combina os pareceres dos checadores virtuais usando lógica probabilística inspirada no algoritmo ***probit/problok***. Gera um score de veracidade e atribui rótulo final de acordo com o tipo de desinformação.
+- **Relator**- que produz um relatório final legível, contendo: conteúdo analisado, prioridade atribuída, painel de checadores envolvidos, score de veracidade e rótulo final.
+
+**Requisitos**
+
+1. Conteúdos chegam pré-categorizados por formato (texto, áudio, vídeo, imagem) e prioridade. O scheduler deve garantir balanceamento de carga e uso ótimo da capacidade de atendimento.
+2. Implementar preempção controlada: conteúdos de menor prioridade podem ser suspensos e recolocados em espera.
+3. Cada checagem deve envolver mínimo de 5 checadores virtuais com perfis anonimizados.
+4. O consenso final deve ser explicável (relatório mostra como o resultado foi atingido)
+5. O sistema deve lidar com **múltiplos conteúdos concorrentes** em diferentes estados (novo, em análise, preemptado, em revisão, fechado).
+6. Deve haver **gestão de filas com preempção** (conteúdos de menor prioridade são suspensos e reencaminhados para espera quando não há capacidade).
+7. O relatório final deve ser exportável em formato digital (ex.: JSON ou PDF).
+
+**Produto Esperado**
+
+Um protótipo funcional de sistema multiagente que simula o funcionamento de um Scheduler de Checagem de fatos, capaz de:
+- receber conteúdos multimídia categorizados;
+- gerenciar filas por formato e prioridade;
+- despachar tarefas para unidades de checagem anônimas;
+- aplicar preempção quando necessário;
+- consolidar pareceres em relatórios explicativos com score de veracidade.

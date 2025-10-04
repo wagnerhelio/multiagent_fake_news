@@ -1,0 +1,66 @@
+{
+  "content_id": "bebaab99-b417-4b4e-8618-36797c64420d",
+  "format": "text",
+  "source": "ui",
+  "category": "Economia",
+  "gut": {
+    "G": 4,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 38,
+  "created_at": 1759462280.5363624,
+  "updated_at": 1759462280.5373652,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "agente-1",
+        "tier": "bronze",
+        "especialista": true,
+        "reputacao": 0.8,
+        "confianca": 0.728,
+        "parecer_label": "Verdadeiro",
+        "parecer_true": 1
+      },
+      {
+        "id": "agente-2",
+        "tier": "bronze",
+        "especialista": true,
+        "reputacao": 0.8,
+        "confianca": 0.846,
+        "parecer_label": "Falso",
+        "parecer_true": 0
+      },
+      {
+        "id": "agente-3",
+        "tier": "bronze",
+        "especialista": true,
+        "reputacao": 0.8,
+        "confianca": 0.883,
+        "parecer_label": "Enganoso",
+        "parecer_true": 0
+      },
+      {
+        "id": "agente-4",
+        "tier": "prata",
+        "especialista": false,
+        "reputacao": 1.0,
+        "confianca": 0.77,
+        "parecer_label": "Falso",
+        "parecer_true": 0
+      },
+      {
+        "id": "agente-5",
+        "tier": "bronze",
+        "especialista": false,
+        "reputacao": 0.8,
+        "confianca": 0.783,
+        "parecer_label": "Verdadeiro",
+        "parecer_true": 1
+      }
+    ],
+    "veracity_score": 0.36,
+    "final_label": "Falso"
+  }
+}

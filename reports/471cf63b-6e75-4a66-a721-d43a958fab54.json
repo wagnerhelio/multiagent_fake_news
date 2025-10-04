@@ -1,0 +1,109 @@
+{
+  "content": {
+    "id": "471cf63b-6e75-4a66-a721-d43a958fab54",
+    "received_at": 1759454281,
+    "type": "nan",
+    "source": NaN,
+    "category": "Política",
+    "gut": {
+      "gravidade": 5,
+      "urgencia": 5,
+      "tendencia": 5,
+      "prioridade": 125
+    },
+    "raw_excerpt": "Um dos entraves [https://www.aosfatos.org/noticias/consulta-cgi-regulacao-de-plataformas/] para o avanço da regulação de redes sociais no Brasil, a escolha de quais órgãos governamentais terão responsabilidade na fiscalização também se tornou um ponto de disputa no debate sobre regulação de inteligê"
+  },
+  "checkers": [
+    {
+      "id": "spec-pol-1",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Política",
+      "reputation": 0.7212312665404741
+    },
+    {
+      "id": "ind-2",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.8337304223942599
+    },
+    {
+      "id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "specialty": "geral",
+      "reputation": 0.7070301951674927
+    },
+    {
+      "id": "spec-pol-3",
+      "role": "especialista",
+      "level": "prata",
+      "specialty": "Política",
+      "reputation": 0.7670927954343637
+    },
+    {
+      "id": "spec-pol-2",
+      "role": "especialista",
+      "level": "bronze",
+      "specialty": "Política",
+      "reputation": 0.6728900584837405
+    }
+  ],
+  "individual_findings": [
+    {
+      "checker_id": "spec-pol-1",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.7212312665404741,
+      "proposed_label": "Falso",
+      "confidence": 0.8
+    },
+    {
+      "checker_id": "ind-2",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.8337304223942599,
+      "proposed_label": "Descontextualizado",
+      "confidence": 0.74
+    },
+    {
+      "checker_id": "ind-1",
+      "role": "independente",
+      "level": "bronze",
+      "reputation": 0.7070301951674927,
+      "proposed_label": "Falso",
+      "confidence": 0.737
+    },
+    {
+      "checker_id": "spec-pol-3",
+      "role": "especialista",
+      "level": "prata",
+      "reputation": 0.7670927954343637,
+      "proposed_label": "Falso",
+      "confidence": 0.713
+    },
+    {
+      "checker_id": "spec-pol-2",
+      "role": "especialista",
+      "level": "bronze",
+      "reputation": 0.6728900584837405,
+      "proposed_label": "Falso",
+      "confidence": 0.7
+    }
+  ],
+  "consensus": {
+    "veracity_score": 0.202,
+    "final_label": "Falso",
+    "explanation": {
+      "weighted_probability": 0.202,
+      "z_probit_like": -0.836,
+      "votes": {
+        "Falso": 4,
+        "Descontextualizado": 1
+      },
+      "weights_hint": "Peso = reputação × confiança (normalizado)."
+    }
+  },
+  "generated_at": 1759454281
+}
