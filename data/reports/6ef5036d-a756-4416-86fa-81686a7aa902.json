@@ -1,0 +1,85 @@
+{
+  "content_id": "6ef5036d-a756-4416-86fa-81686a7aa902",
+  "format": "text",
+  "source": "ui",
+  "category": "Economia",
+  "gut": {
+    "G": 4,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 38,
+  "created_at": 1759868443.894587,
+  "updated_at": 1759868443.894587,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "offline-agente-1",
+        "tier": "prata",
+        "especialista": true,
+        "reputacao": 1.0,
+        "confianca": 0.761,
+        "parecer_label": "Verdadeiro",
+        "parecer_true": 1,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-2",
+        "tier": "bronze",
+        "especialista": true,
+        "reputacao": 0.8,
+        "confianca": 0.873,
+        "parecer_label": "Falso",
+        "parecer_true": 0,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-3",
+        "tier": "bronze",
+        "especialista": true,
+        "reputacao": 0.8,
+        "confianca": 0.753,
+        "parecer_label": "Verdadeiro",
+        "parecer_true": 1,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-4",
+        "tier": "bronze",
+        "especialista": false,
+        "reputacao": 0.8,
+        "confianca": 0.723,
+        "parecer_label": "Descontextualizado",
+        "parecer_true": 0,
+        "source": "offline_simulation"
+      },
+      {
+        "id": "offline-agente-5",
+        "tier": "bronze",
+        "especialista": false,
+        "reputacao": 0.8,
+        "confianca": 0.851,
+        "parecer_label": "Verdadeiro",
+        "parecer_true": 1,
+        "source": "offline_simulation"
+      }
+    ],
+    "veracity_score": 0.616,
+    "final_label": "Falso",
+    "method": "simulation_fallback",
+    "analysis_breakdown": {
+      "openai": {
+        "status": "offline",
+        "message": "Modo offline ativo"
+      },
+      "tavily": {
+        "status": "offline",
+        "message": "Modo offline ativo"
+      },
+      "method": "offline_simulation",
+      "total_checkers": 5
+    },
+    "reason": "APIs não disponíveis ou com erro"
+  }
+}

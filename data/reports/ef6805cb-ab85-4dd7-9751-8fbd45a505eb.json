@@ -1,0 +1,207 @@
+{
+  "content_id": "ef6805cb-ab85-4dd7-9751-8fbd45a505eb",
+  "format": "text",
+  "source": "ui",
+  "category": "Geral",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759869918.7602124,
+  "updated_at": 1759869928.427547,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. Com base nas evidências encontradas, não há informações que confirmem que Pedro Koziel é estudante da UFG. As informações apresentadas se refer...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. Não há evidências que comprovem que Pedro Koziel é estudante da UFG. As informações encontradas indicam que ele é estudante de Análise e Desenv...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. Com base nas evidências encontradas no LinkedIn, Pedro Koziel Diniz é listado como estudante de Análise e Desenvolvimento de Sistemas, o q...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. Não há evidências que confirmem que Pedro Koziel é estudante da UFG. As informações encontradas nos links indicam que ele é estudante de Anális...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. Não há evidências que confirmem que Pedro Koziel é estudante da UFG. As evidências encontradas mencionam apenas que Christian Koziel é estudant...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.linkedin.com/pub/dir/+/Koziel/br-0-Brasil",
+        "title": "100+ \"Koziel\" profiles - LinkedIn",
+        "content": "Pedro Koziel Diniz. Artificial Intelligence | Machine Learning | Natural ... Christian Koziel. Estudante de Análise e Desenvolvimento de Sistemas | QA e",
+        "score": 0.85097736,
+        "raw_content": null
+      },
+      {
+        "url": "https://ae.linkedin.com/pub/dir/+/Koziel/br-0-Brasil",
+        "title": "100+ ملفًا شخصيًا يحتوي على “Koziel” - LinkedIn",
+        "content": "Pedro Koziel Diniz. Artificial Intelligence | Machine Learning | Natural ... Christian Koziel. Estudante de Análise e Desenvolvimento de Sistemas | QA e",
+        "score": 0.8437023,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.instagram.com/reel/DH38n8euue2/",
+        "title": "Ccm Edite Cordeiro Marques | Parabéns, João Vitor Koziel! Temos o ...",
+        "content": "Temos o orgulho de anunciar que nosso estudante João Vitor Koziel foi aprovado para a 4ª fase da Olimpíada Nacional de Inteligência Artificial! Essa",
+        "score": 0.6551821,
+        "raw_content": null
+      },
+      {
+        "url": "https://journals.sagepub.com/doi/full/10.1177/09734082241302403",
+        "title": "Understanding Undergraduate Students' Perceptions About the ...",
+        "content": "This article aimed to identify issues and relevant points for education for sustainability in undergraduate higher education.",
+        "score": 0.018449089,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.instagram.com/p/DDvOYHluwzV/",
+        "title": "Parabéns aos nossos aprovados! Estamos radiantes de ... - Instagram",
+        "content": "TROCA MUITO ESPECIAL! Na semana passada tivemos uma atividade super divertida nas turminhas do infantil 5! A ideia foi transformar as",
+        "score": 0.017578604,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.25,
+    "final_label": "Falso",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. Com base nas evidências encontradas, não há informações que confirmem que Pedro Koziel é estudante da UFG. As informações apresentadas se refer...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. Não há evidências que comprovem que Pedro Koziel é estudante da UFG. As informações encontradas indicam que ele é estudante de Análise e Desenv...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. Com base nas evidências encontradas no LinkedIn, Pedro Koziel Diniz é listado como estudante de Análise e Desenvolvimento de Sistemas, o q...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. Não há evidências que confirmem que Pedro Koziel é estudante da UFG. As informações encontradas nos links indicam que ele é estudante de Anális...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. Não há evidências que confirmem que Pedro Koziel é estudante da UFG. As evidências encontradas mencionam apenas que Christian Koziel é estudant...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://www.linkedin.com/pub/dir/+/Koziel/br-0-Brasil",
+          "title": "100+ \"Koziel\" profiles - LinkedIn",
+          "content": "Pedro Koziel Diniz. Artificial Intelligence | Machine Learning | Natural ... Christian Koziel. Estudante de Análise e Desenvolvimento de Sistemas | QA e",
+          "score": 0.85097736,
+          "raw_content": null
+        },
+        {
+          "url": "https://ae.linkedin.com/pub/dir/+/Koziel/br-0-Brasil",
+          "title": "100+ ملفًا شخصيًا يحتوي على “Koziel” - LinkedIn",
+          "content": "Pedro Koziel Diniz. Artificial Intelligence | Machine Learning | Natural ... Christian Koziel. Estudante de Análise e Desenvolvimento de Sistemas | QA e",
+          "score": 0.8437023,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.instagram.com/reel/DH38n8euue2/",
+          "title": "Ccm Edite Cordeiro Marques | Parabéns, João Vitor Koziel! Temos o ...",
+          "content": "Temos o orgulho de anunciar que nosso estudante João Vitor Koziel foi aprovado para a 4ª fase da Olimpíada Nacional de Inteligência Artificial! Essa",
+          "score": 0.6551821,
+          "raw_content": null
+        },
+        {
+          "url": "https://journals.sagepub.com/doi/full/10.1177/09734082241302403",
+          "title": "Understanding Undergraduate Students' Perceptions About the ...",
+          "content": "This article aimed to identify issues and relevant points for education for sustainability in undergraduate higher education.",
+          "score": 0.018449089,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DDvOYHluwzV/",
+          "title": "Parabéns aos nossos aprovados! Estamos radiantes de ... - Instagram",
+          "content": "TROCA MUITO ESPECIAL! Na semana passada tivemos uma atividade super divertida nas turminhas do infantil 5! A ideia foi transformar as",
+          "score": 0.017578604,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5,
+      "extracted_context": null,
+      "search_query": "pedro koziel estudante"
+    }
+  }
+}

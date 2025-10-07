@@ -1,0 +1,207 @@
+{
+  "content_id": "7ec91a57-e0ed-4d10-8824-2e8659c80ca1",
+  "format": "text",
+  "source": "ui",
+  "category": "Geral",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759869902.5355802,
+  "updated_at": 1759869912.4376261,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação fornecida é DESCONTEXTUALIZADA, pois as evidências apresentadas não têm relação com a pergunta feita sobre a beleza de Pedro Koziel. As f...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A afirmação \"Pedro Koziel é lindo\" não pode ser verificada com base nas evidências encontradas. As fontes fornecidas não contêm informações relevantes...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Descontextualizado",
+        "confidence": 0.8,
+        "reasoning": "DESCONTEXTUALIZADO. As evidências encontradas não fornecem informações relevantes para avaliar a credibilidade da afirmação sobre Pedro Koziel ser lin...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação é DESCONTEXTUALIZADA. As evidências encontradas não são relacionadas à pergunta sobre a beleza de Pedro Koziel, mas sim sobre suas ativid...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Descontextualizado",
+        "confidence": 0.8,
+        "reasoning": "DESCONTEXTUALIZADO. As evidências encontradas não fornecem informações relevantes ou conclusivas sobre a beleza de Pedro Koziel. Portanto, não é possí...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.facebook.com/photo.php?fbid=1273564293893275&id=100037191506947&set=a.739198483996528&locale=ja_JP",
+        "title": "Blog do Eloi - Colheita de melancia em meio à plantação de arroz ...",
+        "content": "Colheita de melancia em meio à plantação de arroz na propriedade do senhor Pedro Koziel (Pedrão), na Colônia Velha Ivaí, em Turvo. www.blogdoeloi.com.br.",
+        "score": 0.3967697,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.instagram.com/pedrokoziel51/",
+        "title": "Pedro Koziel (@pedrokoziel51) • Instagram photos and videos",
+        "content": "Quanto maior a audiência maior a fortuna gerada, mas sabendo como monetizar (ad sense, filiado, apoia-se, donations, spot marks e muito mais) é possível ganhar",
+        "score": 0.35575303,
+        "raw_content": null
+      },
+      {
+        "url": "https://aghseagletimes.com/9367/news/class-of-2024-senior-destinations/",
+        "title": "Class of 2024 Senior destinations – The Eagle Times",
+        "content": "Samantha Acosta Cardenas Elliot Love Bryce Diaz Hannah Hunt Jesus Pizano Chamonica Alexis Leyva Olivia Scott Anthony Echeverria David Rios Hernandez Fiona Swanson Barrett Benjamin **California State University Channel Islands:** **California State University Chico:** **California State University Fullerton:** David Hernandez Hernandez **California State University Long Beach:** **California State University Monterey Bay:** **California State University Northridge:** **California State University Sacramento:** **California State University San Diego:** Amelia Taylor-Hall Ella Rose **California State University Sonoma:** **University of California Davis:** John Medina **University of California San Diego:** Hailey Williams **University of California Santa Barbara:** Lily Webber Isabel Levy David Ramirez **Oregon State University:**   Mia Hinds Mia Hinds is a senior at AG High School, and is in her second and final year with the Eagle Times.",
+        "score": 0.021224413,
+        "raw_content": null
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6255971/",
+        "title": "Trophic Factors in Inflammation and Regeneration - PubMed Central",
+        "content": "Neurotrophic factors (NTFs) are secreted molecules, defined by their ability to support neuronal cell types. However, emerging evidence suggests",
+        "score": 0.020790614,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.scielo.br/j/bjid/a/hchFPFZB6yggFwwzjjFpkjh/?lang=en",
+        "title": "Enteric parasitic infections in HIV/AIDS patients before and after the ...",
+        "content": "Enteroparasites are related to gastrointestinal alterations among patients with HIV/AIDS, some causing severe manifestations in the period before the",
+        "score": 0.02036549,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.542,
+    "final_label": "Verdadeiro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação fornecida é DESCONTEXTUALIZADA, pois as evidências apresentadas não têm relação com a pergunta feita sobre a beleza de Pedro Koziel. As f...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A afirmação \"Pedro Koziel é lindo\" não pode ser verificada com base nas evidências encontradas. As fontes fornecidas não contêm informações relevantes...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Descontextualizado",
+            "confidence": 0.8,
+            "reasoning": "DESCONTEXTUALIZADO. As evidências encontradas não fornecem informações relevantes para avaliar a credibilidade da afirmação sobre Pedro Koziel ser lin...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação é DESCONTEXTUALIZADA. As evidências encontradas não são relacionadas à pergunta sobre a beleza de Pedro Koziel, mas sim sobre suas ativid...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Descontextualizado",
+            "confidence": 0.8,
+            "reasoning": "DESCONTEXTUALIZADO. As evidências encontradas não fornecem informações relevantes ou conclusivas sobre a beleza de Pedro Koziel. Portanto, não é possí...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://www.facebook.com/photo.php?fbid=1273564293893275&id=100037191506947&set=a.739198483996528&locale=ja_JP",
+          "title": "Blog do Eloi - Colheita de melancia em meio à plantação de arroz ...",
+          "content": "Colheita de melancia em meio à plantação de arroz na propriedade do senhor Pedro Koziel (Pedrão), na Colônia Velha Ivaí, em Turvo. www.blogdoeloi.com.br.",
+          "score": 0.3967697,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.instagram.com/pedrokoziel51/",
+          "title": "Pedro Koziel (@pedrokoziel51) • Instagram photos and videos",
+          "content": "Quanto maior a audiência maior a fortuna gerada, mas sabendo como monetizar (ad sense, filiado, apoia-se, donations, spot marks e muito mais) é possível ganhar",
+          "score": 0.35575303,
+          "raw_content": null
+        },
+        {
+          "url": "https://aghseagletimes.com/9367/news/class-of-2024-senior-destinations/",
+          "title": "Class of 2024 Senior destinations – The Eagle Times",
+          "content": "Samantha Acosta Cardenas Elliot Love Bryce Diaz Hannah Hunt Jesus Pizano Chamonica Alexis Leyva Olivia Scott Anthony Echeverria David Rios Hernandez Fiona Swanson Barrett Benjamin **California State University Channel Islands:** **California State University Chico:** **California State University Fullerton:** David Hernandez Hernandez **California State University Long Beach:** **California State University Monterey Bay:** **California State University Northridge:** **California State University Sacramento:** **California State University San Diego:** Amelia Taylor-Hall Ella Rose **California State University Sonoma:** **University of California Davis:** John Medina **University of California San Diego:** Hailey Williams **University of California Santa Barbara:** Lily Webber Isabel Levy David Ramirez **Oregon State University:**   Mia Hinds Mia Hinds is a senior at AG High School, and is in her second and final year with the Eagle Times.",
+          "score": 0.021224413,
+          "raw_content": null
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6255971/",
+          "title": "Trophic Factors in Inflammation and Regeneration - PubMed Central",
+          "content": "Neurotrophic factors (NTFs) are secreted molecules, defined by their ability to support neuronal cell types. However, emerging evidence suggests",
+          "score": 0.020790614,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.scielo.br/j/bjid/a/hchFPFZB6yggFwwzjjFpkjh/?lang=en",
+          "title": "Enteric parasitic infections in HIV/AIDS patients before and after the ...",
+          "content": "Enteroparasites are related to gastrointestinal alterations among patients with HIV/AIDS, some causing severe manifestations in the period before the",
+          "score": 0.02036549,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5,
+      "extracted_context": null,
+      "search_query": "pedro koziel lindo"
+    }
+  }
+}

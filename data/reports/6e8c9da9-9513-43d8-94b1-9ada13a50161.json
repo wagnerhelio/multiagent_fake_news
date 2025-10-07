@@ -1,0 +1,207 @@
+{
+  "content_id": "6e8c9da9-9513-43d8-94b1-9ada13a50161",
+  "format": "text",
+  "source": "ui",
+  "category": "Saúde",
+  "gut": {
+    "G": 3,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 33,
+  "created_at": 1759869864.2933712,
+  "updated_at": 1759869879.6448662,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. A informação apresentada não condiz com a realidade. O ministro Flávio Dino não participou de um julgamento na Primeira Turma do STF envolvendo...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. As evidências encontradas não têm relação com o conteúdo verificado sobre a decisão da Primeira Turma do STF em relação à Petrobras e à multa t...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO\n\nCom base nas evidências encontradas, a notícia sobre o voto de Flávio Dino na Primeira Turma do STF para manter a decisão que livrou a Pet...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO\n\nA notícia apresentada fala sobre a decisão da Primeira Turma do STF em relação à multa bilionária da Petrobras, e não menciona nada sobre mante...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO, pois as evidências encontradas se referem a outros assuntos envolvendo o ministro Flávio Dino, e não estão relacionadas à decisão da Primeira T...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.instagram.com/p/DPZ3YvRDCRp/",
+        "title": "Com voto de Flávio Dino, Primeira Turma rejeita recurso de Moro A ...",
+        "content": "Com três votos a favor — de Cármen Lúcia, Moraes e Flávio Dino —, a Primeira Turma já tem maioria para manter o ex-juiz da Lava-Jato como réu.",
+        "score": 0.8266142,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.facebook.com/correiobraziliense/posts/com-voto-de-fl%C3%A1vio-dino-primeira-turma-rejeita-recurso-de-moro-e-confirma-proces/1204062371768417/",
+        "title": "Com voto de Flávio Dino, Primeira Turma rejeita recurso de Moro e ...",
+        "content": "Com voto de Flávio Dino, Primeira Turma rejeita recurso de Moro e confirma processo por calúnia contra ministro do STF.",
+        "score": 0.7487387,
+        "raw_content": null
+      },
+      {
+        "url": "https://g1.globo.com/politica/noticia/2025/09/09/dino-vota-para-condenar-bolsonaro-e-mais-7-por-golpe-de-estado-placar-e-de-2-a-0.ghtml",
+        "title": "Dino vota para condenar Bolsonaro e mais 7 por golpe de Estado - G1",
+        "content": "Como a Primeira Turma tem cinco ministros, se três votarem pela condenação já é formada maioria para tornar o réu culpado. O voto de Dino.",
+        "score": 0.72019166,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.metropoles.com/brasil/stf-tem-maioria-para-manter-moro-reu-por-calunia-contra-gilmar",
+        "title": "STF tem maioria para manter Moro réu por calúnia contra Gilmar",
+        "content": "Com voto de três dos cinco ministros da Primeira Turma, o STF mantém Moro como réu em ação penal por calúnia contra Gilmar Mendes. 7 imagens.",
+        "score": 0.60805947,
+        "raw_content": null
+      },
+      {
+        "url": "https://g1.globo.com/politica/noticia/2025/10/04/stf-tem-maioria-para-manter-sergio-moro-reu-por-calunia-contra-gilmar-mendes-carmen-lucia-moraes-e-dino-votaram.ghtml",
+        "title": "STF tem maioria para manter Sérgio Moro réu por calúnia ... - G1",
+        "content": "STF tem maioria para manter Sérgio Moro réu por calúnia contra Gilmar Mendes; Cármen Lúcia, Moraes e Dino votaram. Ministros da Primeira Turma",
+        "score": 0.60666215,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.25,
+    "final_label": "Falso",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. A informação apresentada não condiz com a realidade. O ministro Flávio Dino não participou de um julgamento na Primeira Turma do STF envolvendo...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. As evidências encontradas não têm relação com o conteúdo verificado sobre a decisão da Primeira Turma do STF em relação à Petrobras e à multa t...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO\n\nCom base nas evidências encontradas, a notícia sobre o voto de Flávio Dino na Primeira Turma do STF para manter a decisão que livrou a Pet...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO\n\nA notícia apresentada fala sobre a decisão da Primeira Turma do STF em relação à multa bilionária da Petrobras, e não menciona nada sobre mante...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO, pois as evidências encontradas se referem a outros assuntos envolvendo o ministro Flávio Dino, e não estão relacionadas à decisão da Primeira T...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://www.instagram.com/p/DPZ3YvRDCRp/",
+          "title": "Com voto de Flávio Dino, Primeira Turma rejeita recurso de Moro A ...",
+          "content": "Com três votos a favor — de Cármen Lúcia, Moraes e Flávio Dino —, a Primeira Turma já tem maioria para manter o ex-juiz da Lava-Jato como réu.",
+          "score": 0.8266142,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.facebook.com/correiobraziliense/posts/com-voto-de-fl%C3%A1vio-dino-primeira-turma-rejeita-recurso-de-moro-e-confirma-proces/1204062371768417/",
+          "title": "Com voto de Flávio Dino, Primeira Turma rejeita recurso de Moro e ...",
+          "content": "Com voto de Flávio Dino, Primeira Turma rejeita recurso de Moro e confirma processo por calúnia contra ministro do STF.",
+          "score": 0.7487387,
+          "raw_content": null
+        },
+        {
+          "url": "https://g1.globo.com/politica/noticia/2025/09/09/dino-vota-para-condenar-bolsonaro-e-mais-7-por-golpe-de-estado-placar-e-de-2-a-0.ghtml",
+          "title": "Dino vota para condenar Bolsonaro e mais 7 por golpe de Estado - G1",
+          "content": "Como a Primeira Turma tem cinco ministros, se três votarem pela condenação já é formada maioria para tornar o réu culpado. O voto de Dino.",
+          "score": 0.72019166,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.metropoles.com/brasil/stf-tem-maioria-para-manter-moro-reu-por-calunia-contra-gilmar",
+          "title": "STF tem maioria para manter Moro réu por calúnia contra Gilmar",
+          "content": "Com voto de três dos cinco ministros da Primeira Turma, o STF mantém Moro como réu em ação penal por calúnia contra Gilmar Mendes. 7 imagens.",
+          "score": 0.60805947,
+          "raw_content": null
+        },
+        {
+          "url": "https://g1.globo.com/politica/noticia/2025/10/04/stf-tem-maioria-para-manter-sergio-moro-reu-por-calunia-contra-gilmar-mendes-carmen-lucia-moraes-e-dino-votaram.ghtml",
+          "title": "STF tem maioria para manter Sérgio Moro réu por calúnia ... - G1",
+          "content": "STF tem maioria para manter Sérgio Moro réu por calúnia contra Gilmar Mendes; Cármen Lúcia, Moraes e Dino votaram. Ministros da Primeira Turma",
+          "score": 0.60666215,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5,
+      "extracted_context": null,
+      "search_query": "voto dino primeira turma mantém"
+    }
+  }
+}

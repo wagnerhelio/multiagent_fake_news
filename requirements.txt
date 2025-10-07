@@ -5,7 +5,7 @@
 # Core
 fastapi==0.118.0
 starlette==0.48.0
-pydantic==2.11.9
+pydantic==2.10.6
 typing_extensions==4.15.0
 typing_inspection==0.4.2
 annotated-types==0.7.0
@@ -18,8 +18,8 @@ colorama==0.4.6
 uvicorn[standard]==0.37.0
 python-multipart==0.0.9
 
-# UI
-gradio>=4.29.0,<5.0.0
+# UI - versões compatíveis
+gradio==5.23.1
 
 # LLMs e busca web
 openai>=1.30.0

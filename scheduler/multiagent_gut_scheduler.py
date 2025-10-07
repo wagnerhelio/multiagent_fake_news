@@ -33,11 +33,17 @@ def load_runtime_settings() -> Dict[str, Any]:
     """Carrega configurações do arquivo runtime_settings.json"""
     try:
         config_path = os.path.join(os.path.dirname(__file__), "..", "config", "runtime_settings.json")
+        print(f"[DEBUG] Tentando carregar config de: {config_path}")
+        print(f"[DEBUG] Arquivo existe: {os.path.exists(config_path)}")
         if os.path.exists(config_path):
             with open(config_path, 'r', encoding='utf-8') as f:
-                return json.load(f)
-    except Exception:
+                config = json.load(f)
+                print(f"[DEBUG] Config carregada: {config}")
+                return config
+    except Exception as e:
+        print(f"[DEBUG] Erro ao carregar config: {e}")
         pass
+    print("[DEBUG] Usando config padrão (offline)")
     return {
         "openai_api_key": None,
         "tavily_api_key": None,
@@ -248,8 +254,25 @@ def simulate_checkers_and_consensus(item: ContentItem) -> Dict[str, Any]:
     # Recarregar configurações para pegar mudanças da UI
     settings = load_runtime_settings()
     
+    # Debug: imprimir configurações carregadas
+    print(f"[DEBUG] Configurações carregadas:")
+    print(f"  offline_mode: {settings.get('offline_mode', False)}")
+    print(f"  use_openai: {settings.get('use_openai', True)}")
+    print(f"  openai_api_key: {'***' + settings.get('openai_api_key', '')[-4:] if settings.get('openai_api_key') else 'None'}")
+    
+    # Debug: verificar condições
+    offline_mode = settings.get("offline_mode", False)
+    use_openai = settings.get("use_openai", True)
+    openai_key = settings.get("openai_api_key")
+    
+    print(f"[DEBUG] Condições:")
+    print(f"  not offline_mode: {not offline_mode}")
+    print(f"  use_openai: {use_openai}")
+    print(f"  has openai_key: {bool(openai_key)}")
+    print(f"  condition result: {not offline_mode and use_openai and bool(openai_key)}")
+    
     # Se não estiver em modo offline e tiver as chaves, usar APIs reais
-    if not settings.get("offline_mode", True) and settings.get("use_openai", False) and settings.get("openai_api_key"):
+    if not offline_mode and use_openai and openai_key:
         try:
             return _real_verification(item, settings)
         except Exception as e:
@@ -323,7 +346,7 @@ Responda apenas com as palavras-chave e contexto extraído, separadas por vírgu
             print(f"[CONTEXTO] Erro ao extrair contexto: {e}")
     
     # 2. Buscar evidências com Tavily (para texto OU mídia com contexto)
-    if TAVILY_AVAILABLE and settings.get("use_tavily", False) and settings.get("tavily_api_key"):
+    if TAVILY_AVAILABLE and settings.get("use_tavily", True) and settings.get("tavily_api_key"):
         try:
             if not is_media_file:
                 # Para texto: usar conteúdo direto
