@@ -427,6 +427,10 @@ def build_ui() -> gr.Blocks:
 
         st_state = gr.State(_default_flags())
         st_logs: gr.State = gr.State([])  # lista de strings
+        
+        # Configurar o Gradio para evitar problemas com API info
+        demo.config = demo.config or {}
+        demo.config["show_api"] = False
 
         with gr.Tab("Configuração (chaves e modo)"):
             with gr.Row():
