@@ -1,0 +1,207 @@
+{
+  "content_id": "78e4e319-48d2-4410-a602-9a4cad636156",
+  "format": "text",
+  "source": "ui",
+  "category": "Economia",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759871982.6645074,
+  "updated_at": 1759871992.1292238,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. As informações encontradas em fontes confiáveis confirmam que houve mudanças nas regras para antecipação de crédito do saque-aniversário d...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação é VERDADEIRA. De acordo com as evidências encontradas, as novas regras para antecipação de crédito do saque-aniversário do FGTS estabelec...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. As novas regras para antecipação do saque-aniversário do FGTS estabelecem um teto para as antecipações, permitindo antecipar até cinco saq...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. As informações encontradas nos links indicam que realmente houve mudanças nas regras para antecipação de crédito do saque-aniversário do F...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. As evidências encontradas confirmam que houve mudanças nas regras para antecipação de crédito do saque-aniversário do FGTS, estabelecendo ...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://veja.abril.com.br/economia/fgts-muda-regras-e-limita-uso-do-saque-aniversario-para-emprestimos-veja-o-que-muda/",
+        "title": "FGTS muda regras e limita uso do saque-aniversário para ... - VEJA",
+        "content": "As novas regras criam um teto para as antecipações: passará a ser permitido antecipar até cinco saques-aniversários em um período de 12 meses.",
+        "score": 0.76279575,
+        "raw_content": null
+      },
+      {
+        "url": "https://csb.org.br/noticias/saque-aniversario-do-fgts-novas-regras-o-que-muda",
+        "title": "Saque-aniversário do FGTS terá novas regras; saiba o que muda",
+        "content": "Novas regras entram em vigor em 1º de novembro e estabelecem teto R$ 500 para antecipação do saque-aniversário do FGTS.",
+        "score": 0.7613083,
+        "raw_content": null
+      },
+      {
+        "url": "https://g1.globo.com/economia/noticia/2025/10/07/conselho-limita-parcelas-e-valor-da-linha-de-credito-de-antecipacao-do-saque-aniversario-do-fgts.ghtml",
+        "title": "FGTS: governo limita antecipação do saque-aniversário - G1 - Globo",
+        "content": "Com a nova regra, a antecipação dos recursos do saque-aniversário ficará limitada a somente cinco parcelas nos primeiros doze meses,",
+        "score": 0.7598145,
+        "raw_content": null
+      },
+      {
+        "url": "https://g1.globo.com/economia/noticia/2025/10/07/novas-regras-para-antecipacao-de-credito-de-saque-aniversario-do-fgts-veja-quem-podera-aderir-e-outras-respostas.ghtml",
+        "title": "Novas regras para antecipação de crédito de saque-aniversário do ...",
+        "content": "Nos primeiros 12 meses (transição): até 5 parcelas de R$ 500 cada (total de R$ 2,5 mil). Depois disso: o limite cai para 3 parcelas (três anos",
+        "score": 0.73846215,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/outubro/fgts-tera-novas-regras-para-o-saque-aniversario-a-partir-de-novembro",
+        "title": "FGTS terá novas regras para o saque-aniversário a partir de ...",
+        "content": "Com as novas regras, será possível antecipar até cinco saques-aniversário (um por ano) em um período de 12 meses. Após esse prazo, o trabalhador",
+        "score": 0.7244226,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 1.0,
+    "final_label": "Verdadeiro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. As informações encontradas em fontes confiáveis confirmam que houve mudanças nas regras para antecipação de crédito do saque-aniversário d...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação é VERDADEIRA. De acordo com as evidências encontradas, as novas regras para antecipação de crédito do saque-aniversário do FGTS estabelec...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. As novas regras para antecipação do saque-aniversário do FGTS estabelecem um teto para as antecipações, permitindo antecipar até cinco saq...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. As informações encontradas nos links indicam que realmente houve mudanças nas regras para antecipação de crédito do saque-aniversário do F...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. As evidências encontradas confirmam que houve mudanças nas regras para antecipação de crédito do saque-aniversário do FGTS, estabelecendo ...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://veja.abril.com.br/economia/fgts-muda-regras-e-limita-uso-do-saque-aniversario-para-emprestimos-veja-o-que-muda/",
+          "title": "FGTS muda regras e limita uso do saque-aniversário para ... - VEJA",
+          "content": "As novas regras criam um teto para as antecipações: passará a ser permitido antecipar até cinco saques-aniversários em um período de 12 meses.",
+          "score": 0.76279575,
+          "raw_content": null
+        },
+        {
+          "url": "https://csb.org.br/noticias/saque-aniversario-do-fgts-novas-regras-o-que-muda",
+          "title": "Saque-aniversário do FGTS terá novas regras; saiba o que muda",
+          "content": "Novas regras entram em vigor em 1º de novembro e estabelecem teto R$ 500 para antecipação do saque-aniversário do FGTS.",
+          "score": 0.7613083,
+          "raw_content": null
+        },
+        {
+          "url": "https://g1.globo.com/economia/noticia/2025/10/07/conselho-limita-parcelas-e-valor-da-linha-de-credito-de-antecipacao-do-saque-aniversario-do-fgts.ghtml",
+          "title": "FGTS: governo limita antecipação do saque-aniversário - G1 - Globo",
+          "content": "Com a nova regra, a antecipação dos recursos do saque-aniversário ficará limitada a somente cinco parcelas nos primeiros doze meses,",
+          "score": 0.7598145,
+          "raw_content": null
+        },
+        {
+          "url": "https://g1.globo.com/economia/noticia/2025/10/07/novas-regras-para-antecipacao-de-credito-de-saque-aniversario-do-fgts-veja-quem-podera-aderir-e-outras-respostas.ghtml",
+          "title": "Novas regras para antecipação de crédito de saque-aniversário do ...",
+          "content": "Nos primeiros 12 meses (transição): até 5 parcelas de R$ 500 cada (total de R$ 2,5 mil). Depois disso: o limite cai para 3 parcelas (três anos",
+          "score": 0.73846215,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/noticias-e-conteudo/2025/outubro/fgts-tera-novas-regras-para-o-saque-aniversario-a-partir-de-novembro",
+          "title": "FGTS terá novas regras para o saque-aniversário a partir de ...",
+          "content": "Com as novas regras, será possível antecipar até cinco saques-aniversário (um por ano) em um período de 12 meses. Após esse prazo, o trabalhador",
+          "score": 0.7244226,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5,
+      "extracted_context": null,
+      "search_query": "novas regras antecipação crédito saque"
+    }
+  }
+}

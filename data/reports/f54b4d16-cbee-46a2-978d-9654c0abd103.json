@@ -1,0 +1,207 @@
+{
+  "content_id": "f54b4d16-cbee-46a2-978d-9654c0abd103",
+  "format": "text",
+  "source": "ui",
+  "category": "Economia",
+  "gut": {
+    "G": 4,
+    "U": 4,
+    "T": 3
+  },
+  "priority": 38,
+  "created_at": 1759871093.0604954,
+  "updated_at": 1759871103.6090117,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-jornalista",
+        "role": "Jornalista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação é VERDADEIRA. A página mencionada no conteúdo é falsa e induz o leitor a um golpe, pois não há nenhuma campanha de saque do FGTS em andam...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-fact-checker",
+        "role": "Fact-Checker",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A informação de que Lula autorizou o saque total do FGTS em 2024 é FALSA. Não há nenhuma autorização nesse sentido. A página mencionada no conteúdo é ...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-pesquisador",
+        "role": "Pesquisador",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. O conteúdo apresentado na publicação é falso, pois se trata de um golpe que induz o leitor a acreditar que pode sacar valores do FGTS de forma ...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista",
+        "role": "Analista",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "A publicação em questão é FALSA. Trata-se de uma tentativa de golpe que induz o leitor a acreditar que teria valores a receber do FGTS, mediante o pag...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador",
+        "role": "Verificador",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "FALSO. A informação de que Lula autorizou o saque total do FGTS em 2024 é falsa, assim como a página que simula ser do governo brasileiro e oferece va...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/comunicados/nota-orientativa-fgts-digital-no-04-2024",
+        "title": "Nota Orientativa FGTS DIGITAL nº 04/2024 - Portal Gov.br",
+        "content": "Define os procedimentos específicos de suspensão da exigibilidade dos recolhimentos do Fundo de Garantia do Tempo de Serviço FGTS,",
+        "score": 0.31576815,
+        "raw_content": null
+      },
+      {
+        "url": "https://caixanoticias.caixa.gov.br/Paginas/Not%C3%ADcias/2025/07-JULHO/FGTS-tem-lucro-de-RS-136-bilhoes-em-2024.aspx",
+        "title": "FGTS tem lucro de R$ 13,6 bilhões em 2024 - CAIXA Notícias",
+        "content": "Serão distribuídos R$ 12,9 bilhões, valor equivalente a 95% do resultado do Fundo de Garantia do Tempo de Serviço (FGTS) em 2024. Para calcular",
+        "score": 0.28539234,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.gov.br/secom/pt-br/assuntos/noticias/2025/07/conselho-curador-do-fgts-aprova-distribuicao-de-r-12-9-bilhoes-para-trabalhadores",
+        "title": "Conselho Curador do FGTS aprova distribuição de R$ 12,9 bilhões ...",
+        "content": "Em 2023, a arrecadação líquida foi de R$ 33,1 bilhões; em 2024, recuou para R$ 28,7 bilhões. O ativo total do FGTS em 2024 é de R$ 770,4",
+        "score": 0.2521036,
+        "raw_content": null
+      },
+      {
+        "url": "https://portaldocomercio.org.br/diario-executivo/fgts-distribuira-quase-r-13-bi-do-lucro-de-2024/",
+        "title": "FGTS distribuirá quase R$ 13 bi do lucro de 2024",
+        "content": "Com a partilha dos lucros, o FGTS terá rentabilidade de 6,05% em 2024, acima da inflação oficial de 4,83% no ano passado. No ano passado, o FGTS",
+        "score": 0.24780577,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.santander.com.br/blog/pagamento-lucros-fgts",
+        "title": "Entenda o pagamento dos lucros do FGTS - Blog Santander",
+        "content": "Você sabia que pode receber lucro do FGTS? ## **O que é o lucro do FGTS e como funciona?** Com o tempo, esses investimentos geram retorno, e parte desse lucro é distribuída anualmente entre os trabalhadores que possuem saldo no FGTS, aumentando o valor acumulado em suas contas. ## **Quem recebe o lucro do FGTS?** Todos os trabalhadores que possuíam contas ativas no FGTS em 31 de dezembro de 2024 têm direito a receber a parcela do lucro. • A rentabilidade do FGTS em 2024 ficou em torno de **6,05%** (TR + 3% + distribuição de lucros). ## **Como sacar o dinheiro do lucro do FGTS?** O lucro do FGTS não pode ser sacado, o dinheiro fica preso no fundo.",
+        "score": 0.21524386,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.375,
+    "final_label": "Falso",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-jornalista",
+            "role": "Jornalista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação é VERDADEIRA. A página mencionada no conteúdo é falsa e induz o leitor a um golpe, pois não há nenhuma campanha de saque do FGTS em andam...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-fact-checker",
+            "role": "Fact-Checker",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A informação de que Lula autorizou o saque total do FGTS em 2024 é FALSA. Não há nenhuma autorização nesse sentido. A página mencionada no conteúdo é ...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-pesquisador",
+            "role": "Pesquisador",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. O conteúdo apresentado na publicação é falso, pois se trata de um golpe que induz o leitor a acreditar que pode sacar valores do FGTS de forma ...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista",
+            "role": "Analista",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "A publicação em questão é FALSA. Trata-se de uma tentativa de golpe que induz o leitor a acreditar que teria valores a receber do FGTS, mediante o pag...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador",
+            "role": "Verificador",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "FALSO. A informação de que Lula autorizou o saque total do FGTS em 2024 é falsa, assim como a página que simula ser do governo brasileiro e oferece va...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/empregador/fgtsdigital/comunicados/nota-orientativa-fgts-digital-no-04-2024",
+          "title": "Nota Orientativa FGTS DIGITAL nº 04/2024 - Portal Gov.br",
+          "content": "Define os procedimentos específicos de suspensão da exigibilidade dos recolhimentos do Fundo de Garantia do Tempo de Serviço FGTS,",
+          "score": 0.31576815,
+          "raw_content": null
+        },
+        {
+          "url": "https://caixanoticias.caixa.gov.br/Paginas/Not%C3%ADcias/2025/07-JULHO/FGTS-tem-lucro-de-RS-136-bilhoes-em-2024.aspx",
+          "title": "FGTS tem lucro de R$ 13,6 bilhões em 2024 - CAIXA Notícias",
+          "content": "Serão distribuídos R$ 12,9 bilhões, valor equivalente a 95% do resultado do Fundo de Garantia do Tempo de Serviço (FGTS) em 2024. Para calcular",
+          "score": 0.28539234,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.gov.br/secom/pt-br/assuntos/noticias/2025/07/conselho-curador-do-fgts-aprova-distribuicao-de-r-12-9-bilhoes-para-trabalhadores",
+          "title": "Conselho Curador do FGTS aprova distribuição de R$ 12,9 bilhões ...",
+          "content": "Em 2023, a arrecadação líquida foi de R$ 33,1 bilhões; em 2024, recuou para R$ 28,7 bilhões. O ativo total do FGTS em 2024 é de R$ 770,4",
+          "score": 0.2521036,
+          "raw_content": null
+        },
+        {
+          "url": "https://portaldocomercio.org.br/diario-executivo/fgts-distribuira-quase-r-13-bi-do-lucro-de-2024/",
+          "title": "FGTS distribuirá quase R$ 13 bi do lucro de 2024",
+          "content": "Com a partilha dos lucros, o FGTS terá rentabilidade de 6,05% em 2024, acima da inflação oficial de 4,83% no ano passado. No ano passado, o FGTS",
+          "score": 0.24780577,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.santander.com.br/blog/pagamento-lucros-fgts",
+          "title": "Entenda o pagamento dos lucros do FGTS - Blog Santander",
+          "content": "Você sabia que pode receber lucro do FGTS? ## **O que é o lucro do FGTS e como funciona?** Com o tempo, esses investimentos geram retorno, e parte desse lucro é distribuída anualmente entre os trabalhadores que possuem saldo no FGTS, aumentando o valor acumulado em suas contas. ## **Quem recebe o lucro do FGTS?** Todos os trabalhadores que possuíam contas ativas no FGTS em 31 de dezembro de 2024 têm direito a receber a parcela do lucro. • A rentabilidade do FGTS em 2024 ficou em torno de **6,05%** (TR + 3% + distribuição de lucros). ## **Como sacar o dinheiro do lucro do FGTS?** O lucro do FGTS não pode ser sacado, o dinheiro fica preso no fundo.",
+          "score": 0.21524386,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5,
+      "extracted_context": null,
+      "search_query": "publicação intitulada reviravolta fgts 2024"
+    }
+  }
+}

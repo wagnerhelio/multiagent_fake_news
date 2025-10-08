@@ -1,0 +1,207 @@
+{
+  "content_id": "252be8ac-fb5a-4f26-ad1d-00fb5b827f2d",
+  "format": "video",
+  "source": "ui",
+  "category": "Geral",
+  "gut": {
+    "G": 3,
+    "U": 3,
+    "T": 3
+  },
+  "priority": 30,
+  "created_at": 1759871880.353323,
+  "updated_at": 1759871892.774794,
+  "preemptions": 0,
+  "consensus": {
+    "checkers": [
+      {
+        "id": "openai-especialista em mídia",
+        "role": "Especialista em Mídia",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "A credibilidade e autenticidade deste arquivo parecem ser VERDADEIRAS. O arquivo de vídeo está armazenado em um local comum, o contexto extraído parec...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-detector de deepfake",
+        "role": "Detector de Deepfake",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "Não há evidências de adulteração no arquivo de mídia \"1.mp4\" ou no contexto extraído. As informações fornecidas são consistentes e não levantam suspei...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-analista forense",
+        "role": "Analista Forense",
+        "tier": "ouro",
+        "reputation": 1.2,
+        "verdict": "Falso",
+        "confidence": 0.8,
+        "reasoning": "Considerando as informações fornecidas, podemos classificar como VERDADEIRO. O arquivo de mídia é um vídeo com o nome \"1.mp4\" e está localizado em um ...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-verificador de conteúdo",
+        "role": "Verificador de Conteúdo",
+        "tier": "bronze",
+        "reputation": 0.8,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO. O arquivo de vídeo 1.mp4 foi encontrado no caminho especificado, com o tamanho e formato informados. Além disso, as palavras-chave relacio...",
+        "source": "openai"
+      },
+      {
+        "id": "openai-especialista em metadados",
+        "role": "Especialista em Metadados",
+        "tier": "prata",
+        "reputation": 1.0,
+        "verdict": "Verdadeiro",
+        "confidence": 0.8,
+        "reasoning": "VERDADEIRO\n\nA informação técnica do arquivo de mídia (nome, caminho, tamanho e formato) está corretamente apresentada. Além disso, o contexto extraído...",
+        "source": "openai"
+      }
+    ],
+    "evidence": [
+      {
+        "url": "https://www.reddit.com/r/videography/comments/gs04kn/how_to_catalogue_and_key_word_all_your_raw/?tl=pt-br",
+        "title": "Como catalogar e adicionar palavras-chave a todas as suas ...",
+        "content": "A marcação por palavras-chave existe no Windows há anos. É só clicar com o botão direito num arquivo de vídeo/imagem e adicionar quantas",
+        "score": 0.98581,
+        "raw_content": null
+      },
+      {
+        "url": "https://pt.semrush.com/blog/pesquisa-de-palavras-chave-no-youtube/",
+        "title": "Pesquisa de palavras-chave no YouTube: guia completo - Semrush",
+        "content": "Essas palavras e frases (palavras-chave do YouTube, termos de pesquisa ou consultas de pesquisa) podem ajudar você a otimizar seus vídeos para alcançar um posicionamento mais alto nos resultados de pesquisa do YouTube. Ao fazer a pesquisa de palavras-chave no YouTube, você também descobre o que os espectadores-alvo estão procurando e pode produzir os vídeos que eles realmente querem ver. Image 8: Resultados com palavras-chave para o YouTube e suas métricas de \"Volume de pesquisa\" e \"Taxa competitiva\". Image 28: Uma descrição completa de um vídeo do Youtube com a palavra-chave principal e suas variações em destaque. Image 36: Listas de reprodução de vídeo com o termo \"ioga para iniciantes\" no Youtube com as palavras-chave nos títulos em destaque.",
+        "score": 0.98359,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.canva.com/pt_br/help/add-edit-tags/",
+        "title": "Adicionar etiquetas às suas imagens, vídeos e designs para facilitar ...",
+        "content": "Adicionar palavras-chave em arquivos de mídia a partir do editor · Na parte inferior do editor, toque na guia Uploads. · Toque no ícone Ver mais na imagem ou",
+        "score": 0.9792,
+        "raw_content": null
+      },
+      {
+        "url": "https://helpx.adobe.com/br/elements-organizer/using/finding-media-files-keyword-tags.html",
+        "title": "Localizar arquivos de mídia por marcas de palavra-chave",
+        "content": "O filtro de avaliações de estrela ajuda a localizar suas fotos, clipes de vídeo, clipes de áudio e projetos favoritos (ou menos favoritos).",
+        "score": 0.97372,
+        "raw_content": null
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=FEpUdFzMyOI",
+        "title": "Como Achar Palavras-Chaves? Estratégias Para Melhorar o Seu ...",
+        "content": "Como Achar Palavras-Chaves? Estratégias Para Melhorar o Seu Conteúdo\nGermano do Marketing\n1280 subscribers\n3 likes\n69 views\n15 Apr 2025\nVocê sabe como encontrar as palavras-chave certas para atrair mais tráfego e melhorar a performance do seu conteúdo? Neste vídeo, você vai descobrir estratégias simples e eficazes para achar palavras-chave com potencial de tráfego e que fazem sentido com o seu negócio.\n\n📌 Você vai aprender:\n• Que ferramentas gratuitas e pagas utilizar para encontrar palavras-chave\n• Como usar ChatGPT, Google Keyword Planner e Semrush\n• Estratégias para encontrar termos com volume e baixa concorrência\n\nIdeal para quem quer crescer no Google, melhorar o SEO e se destacar online com conteúdo relevante.\n\nWorkflow: https://chatgpt.com/share/67d04441-5df0-800d-aebe-1dbf298e0062\n\nConheça Meus Cursos na Hotmart: https://hotmart.com/pt-br/club/germano-do-marketing\n\nPergunte Sobre a Consultoria no Meu LinkedIn: /in/germano-ferreira/\n\nGostou do conteúdo? Não esqueça de deixar seu like, se inscrever no canal e ativar o sininho para receber mais dicas de SEO e marketing digital!\n\n📩 Tem alguma dúvida ou sugestão? Comenta aqui embaixo!\n\n🌟 Agradeço por assistir e desejo sucesso na sua jornada no Digital! 🌟\n\n",
+        "score": 0.97005,
+        "raw_content": null
+      }
+    ],
+    "veracity_score": 0.75,
+    "final_label": "Verdadeiro",
+    "analysis_breakdown": {
+      "openai": {
+        "checkers_count": 5,
+        "successful_checks": 5,
+        "results": [
+          {
+            "id": "openai-especialista em mídia",
+            "role": "Especialista em Mídia",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "A credibilidade e autenticidade deste arquivo parecem ser VERDADEIRAS. O arquivo de vídeo está armazenado em um local comum, o contexto extraído parec...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-detector de deepfake",
+            "role": "Detector de Deepfake",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "Não há evidências de adulteração no arquivo de mídia \"1.mp4\" ou no contexto extraído. As informações fornecidas são consistentes e não levantam suspei...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-analista forense",
+            "role": "Analista Forense",
+            "tier": "ouro",
+            "reputation": 1.2,
+            "verdict": "Falso",
+            "confidence": 0.8,
+            "reasoning": "Considerando as informações fornecidas, podemos classificar como VERDADEIRO. O arquivo de mídia é um vídeo com o nome \"1.mp4\" e está localizado em um ...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-verificador de conteúdo",
+            "role": "Verificador de Conteúdo",
+            "tier": "bronze",
+            "reputation": 0.8,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO. O arquivo de vídeo 1.mp4 foi encontrado no caminho especificado, com o tamanho e formato informados. Além disso, as palavras-chave relacio...",
+            "source": "openai"
+          },
+          {
+            "id": "openai-especialista em metadados",
+            "role": "Especialista em Metadados",
+            "tier": "prata",
+            "reputation": 1.0,
+            "verdict": "Verdadeiro",
+            "confidence": 0.8,
+            "reasoning": "VERDADEIRO\n\nA informação técnica do arquivo de mídia (nome, caminho, tamanho e formato) está corretamente apresentada. Além disso, o contexto extraído...",
+            "source": "openai"
+          }
+        ]
+      },
+      "tavily": [
+        {
+          "url": "https://www.reddit.com/r/videography/comments/gs04kn/how_to_catalogue_and_key_word_all_your_raw/?tl=pt-br",
+          "title": "Como catalogar e adicionar palavras-chave a todas as suas ...",
+          "content": "A marcação por palavras-chave existe no Windows há anos. É só clicar com o botão direito num arquivo de vídeo/imagem e adicionar quantas",
+          "score": 0.98581,
+          "raw_content": null
+        },
+        {
+          "url": "https://pt.semrush.com/blog/pesquisa-de-palavras-chave-no-youtube/",
+          "title": "Pesquisa de palavras-chave no YouTube: guia completo - Semrush",
+          "content": "Essas palavras e frases (palavras-chave do YouTube, termos de pesquisa ou consultas de pesquisa) podem ajudar você a otimizar seus vídeos para alcançar um posicionamento mais alto nos resultados de pesquisa do YouTube. Ao fazer a pesquisa de palavras-chave no YouTube, você também descobre o que os espectadores-alvo estão procurando e pode produzir os vídeos que eles realmente querem ver. Image 8: Resultados com palavras-chave para o YouTube e suas métricas de \"Volume de pesquisa\" e \"Taxa competitiva\". Image 28: Uma descrição completa de um vídeo do Youtube com a palavra-chave principal e suas variações em destaque. Image 36: Listas de reprodução de vídeo com o termo \"ioga para iniciantes\" no Youtube com as palavras-chave nos títulos em destaque.",
+          "score": 0.98359,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.canva.com/pt_br/help/add-edit-tags/",
+          "title": "Adicionar etiquetas às suas imagens, vídeos e designs para facilitar ...",
+          "content": "Adicionar palavras-chave em arquivos de mídia a partir do editor · Na parte inferior do editor, toque na guia Uploads. · Toque no ícone Ver mais na imagem ou",
+          "score": 0.9792,
+          "raw_content": null
+        },
+        {
+          "url": "https://helpx.adobe.com/br/elements-organizer/using/finding-media-files-keyword-tags.html",
+          "title": "Localizar arquivos de mídia por marcas de palavra-chave",
+          "content": "O filtro de avaliações de estrela ajuda a localizar suas fotos, clipes de vídeo, clipes de áudio e projetos favoritos (ou menos favoritos).",
+          "score": 0.97372,
+          "raw_content": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=FEpUdFzMyOI",
+          "title": "Como Achar Palavras-Chaves? Estratégias Para Melhorar o Seu ...",
+          "content": "Como Achar Palavras-Chaves? Estratégias Para Melhorar o Seu Conteúdo\nGermano do Marketing\n1280 subscribers\n3 likes\n69 views\n15 Apr 2025\nVocê sabe como encontrar as palavras-chave certas para atrair mais tráfego e melhorar a performance do seu conteúdo? Neste vídeo, você vai descobrir estratégias simples e eficazes para achar palavras-chave com potencial de tráfego e que fazem sentido com o seu negócio.\n\n📌 Você vai aprender:\n• Que ferramentas gratuitas e pagas utilizar para encontrar palavras-chave\n• Como usar ChatGPT, Google Keyword Planner e Semrush\n• Estratégias para encontrar termos com volume e baixa concorrência\n\nIdeal para quem quer crescer no Google, melhorar o SEO e se destacar online com conteúdo relevante.\n\nWorkflow: https://chatgpt.com/share/67d04441-5df0-800d-aebe-1dbf298e0062\n\nConheça Meus Cursos na Hotmart: https://hotmart.com/pt-br/club/germano-do-marketing\n\nPergunte Sobre a Consultoria no Meu LinkedIn: /in/germano-ferreira/\n\nGostou do conteúdo? Não esqueça de deixar seu like, se inscrever no canal e ativar o sininho para receber mais dicas de SEO e marketing digital!\n\n📩 Tem alguma dúvida ou sugestão? Comenta aqui embaixo!\n\n🌟 Agradeço por assistir e desejo sucesso na sua jornada no Digital! 🌟\n\n",
+          "score": 0.97005,
+          "raw_content": null
+        }
+      ],
+      "method": "real_apis",
+      "total_checkers": 5,
+      "extracted_context": "Palavras-chave: vídeo, arquivo, mídia, análise\nContexto: extração de contexto de arquivo de mídia",
+      "search_query": "palavras chave vídeo arquivo mídia"
+    }
+  }
+}
